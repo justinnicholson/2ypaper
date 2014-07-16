@@ -88,21 +88,3 @@ old.data$t.ccode[old.data$INV_CTY_NAME == "Serbia and Montenegro"] = 345
 old.data$t.ccode[old.data$INV_CTY_NAME == "Montenegro"] = 341
 old.data$INV_CTY_NAME[old.data$t.ccode == 52] = "Trinidad and Tobago"
 data$t.ccode[data$INV_CTY_NAME == "East Germany"] = 265
-
-for (i in 1:nrow(data)){
-  data$prevint[i] = ifelse(length(which(data$t.ccode == data$t.ccode[i] & data$chal == 1 & data$i.date<data$i.date[i])) == 0,0,1)             
-}
-
-t.tenure = matrix(NA,nrow(data),1)
-
-for (i in 1:nrow(data)){
-  yourvector[i] = ifelse(length(which(arch$ccode == data$t.ccode[i] & arch$eindate <= data$cdate[i] & data$cdate[i] <= arch$eoutdate)>0),
-                                which(arch$ccode == data$t.ccode[i] & arch$eindate <= data$cdate[i] & data$cdate[i] <= arch$eoutdate),NA)
-  t.tenure[i] = data$cdate[i] - arch$eindate[yourvector[i]]
-}
-
-yourvector = which( data$t.ccode == arch$ccode & x>=your.number)
-x[yourvector[which(abs(x[yourvector]-your.number) == min(abs(x[yourvector]-your.number)))]]
-
-
-arch$ccode[arch$idacr == "GFR"] = 255
