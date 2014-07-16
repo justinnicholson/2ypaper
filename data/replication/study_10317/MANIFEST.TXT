@@ -1,0 +1,4 @@
+readme.txt (text/plain) 420 bytes.
+busch-reinhardt-jwt.tab (text/tab-separated-values) 79964 bytes.
+busch-reinhardt-jwt.zip (application/x-zip-compressed) 22153 bytes.
+busch-reinhardt-jwt.log (application/x-sas-log) 8809 bytes.

@@ -1,0 +1,299 @@
+case,year,multi,admit,rulp,ruld,duration,concede,disc,ntb,many,panel,ldc1,ldc2,tradep1,tradep2,gdprat,ruling,ruldir,sdate,title,hudec,art22ai,art23ai,stnam1,stnam2,stnum,stnum2
+1,1948,0,0,1,0,0,3,1,0,0,1,0,1,,,,1,1,19jul1948,"Consular Taxes",1,,1,"Netherlands","Cuba",210,40
+2,1948,0,0,1,0,1,3,1,1,0,1,1,1,,,,1,1,24aug1948,"Tax Rebates on Exports",2,,2,"Pakistan","India",770,750
+3,1948,0,0,0,0,0,3,0,1,0,1,0,1,,,,0,,09sep1948,"Restrictions on Textiles (I)",3,,3,"United States","Cuba",2,40
+4,1949,0,0,1,0,8,3,0,1,0,1,0,1,.0459075,.0080621,.1493814,1,1,25apr1949,"Internal Taxes",4,,4,"France","Brazil",220,140
+5,1949,0,0,0,0,0,1,0,0,0,1,0,1,.0033116,,,0,,14may1949,"Restrictions on Textiles (II)",5,,5,"United States","Cuba",2,40
+6,1949,0,0,0,1,0,1,1,1,0,1,0,0,,.0002429,,1,3,30may1949,"Export Restrictions",6,,6,"Czechoslovakia","United States",315,2
+7,1949,0,0,0,1,0,1,1,0,0,1,1,0,,.0031863,,1,3,26jul1949,"Margins of Preferences to Cuba",7,,7,"Cuba","United States",40,2
+8,1949,0,0,1,0,1,3,0,1,0,1,1,0,.0000912,.0000483,.3464376,1,1,27jul1949,"Subsidy on Ammonium Sulfate",8,,8,"Chile","Australia",155,900
+9,1950,0,0,0,0,0,3,0,1,0,0,0,0,.0021828,,,0,,07oct1950,"Export Restrictions on Hides",9,,9,"United States","France",2,220
+10,1950,0,0,0,0,0,2,0,1,0,0,0,0,.0570475,,,0,,07oct1950,"Quantitative Restrictions",10,,10,"Belgium","France",211,220
+11,1950,0,0,0,0,0,2,0,1,0,0,0,0,.0592277,.0069698,.1052881,0,,07oct1950,"Quantitative Restrictions",11,,,"Belgium","United Kingdom",211,200
+12,1950,0,1,0,0,2,3,0,1,0,0,0,0,,.0091078,,0,,26oct1950,"Purchase Tax Exemption",12,,11,"Netherlands","United Kingdom",210,200
+13,1950,0,0,0,1,1,1,0,0,0,1,0,0,.0361778,.0001775,.0048816,1,3,07nov1950,"Article XIX on Fur Felt Hats",13,,12,"Czechoslovakia","United States",315,2
+14,1951,1,0,1,0,3,3,1,1,0,1,0,0,.0108993,.0039901,.2769237,1,1,19sep1951,"Family Allowances",14,,14,"Norway","Belgium",385,211
+15,1951,1,0,1,0,3,3,1,1,0,1,0,0,.0073657,.0039901,.3617193,1,1,19sep1951,"Family Allowances",14,,14,"Denmark","Belgium",390,211
+16,1951,1,1,1,0,4,1,0,1,0,1,0,0,.060234,.0010383,.0169461,1,1,19sep1951,"Restrictions on Dairy Products",15,,16,"Netherlands","United States",210,2
+17,1951,1,1,1,0,4,1,0,1,0,1,0,0,.0291427,.0003171,.0107629,1,1,21sep1951,"Restrictions on Dairy Products",15,,15,"Denmark","United States",390,2
+18,1951,0,0,0,0,3,3,1,1,0,1,0,0,.0015226,.0758128,.981163,0,,22oct1951,"Restrictions on Dollar Imports",16,,17,"United States","Belgium",2,211
+19,1952,0,1,0,0,1,3,0,0,0,1,0,0,.0014176,.0220812,.9396726,0,,03sep1952,"Increase of Import Duties",17,,18,"United Kingdom","Greece",200,350
+20,1952,0,0,1,0,1,3,0,0,0,1,0,0,.0456778,.0042125,.084436,1,1,04sep1952,"Treatment of Sardines",18,,19,"Norway","Germany",385,255
+21,1952,0,0,0,0,1,3,0,1,0,1,0,0,.0008494,.0114213,.930777,1,2,27sep1952,"Special Import Taxes",19,,20,"France","Greece",220,350
+22,1952,0,0,0,0,1,3,1,0,0,0,1,1,.0113674,.0433653,.7923104,0,,03oct1952,"Export Fees on Jute",20,,21,"India","Pakistan",750,770
+23,1952,1,0,0,0,2,3,0,0,0,0,0,0,.0501396,.0003972,.0078589,0,,04oct1952,"Article XIX Action--Dried Figs",21,,22,"Greece","United States",350,2
+24,1952,1,0,1,0,3,3,0,0,0,1,1,0,,.0003619,,1,1,04oct1952,"Article XIX Action--Dried Figs",21,,23,"Turkey","United States",640,2
+25,1952,0,0,0,1,0,3,1,1,0,1,0,0,.0014415,.0848785,.9833006,1,3,28oct1952,"Action Under Article XXIII:2",22,,,"United States","Netherlands",2,210
+26,1952,0,1,0,0,3,3,0,0,0,0,0,0,.0033444,.0314001,.9037434,0,,07nov1952,"Stat. Tax on Imports & Exports",23,,24,"United States","France",2,220
+27,1953,0,0,0,0,0,3,1,1,0,0,1,0,,.0003003,,0,,13aug1953,"Import Restrictions on Filbert",24,,25,"Turkey","United States",640,2
+28,1953,1,1,0,0,1,3,0,0,0,0,0,1,.0043499,.0142194,.7657491,0,,15sep1953,"Compensatory Concessions",25,,26,"United Kingdom","Brazil",200,140
+29,1953,1,1,0,0,1,3,0,0,0,0,0,1,.0041521,.1075344,.9628234,0,,15sep1953,"Compensatory Concessions",25,,26,"United States","Brazil",2,140
+30,1954,0,1,1,0,3,2,0,0,0,1,0,0,.0100137,.0047261,.3206346,1,1,29jul1954,"Special Comp. Tax on Imports",26,,28,"Italy","France",325,220
+31,1954,0,0,0,0,1,3,1,1,0,1,0,0,.0042009,.0100118,.7044291,1,2,29jul1954,"AD Duties",27,,29,"Italy","Sweden",325,380
+32,1954,0,0,0,0,1,3,0,1,1,1,0,1,.0048847,,,0,,30jul1954,"Import Taxes & Export Bonuses",28,,30,"Italy","Turkey",325,640
+33,1954,0,0,0,0,0,3,1,1,0,0,0,1,,,,0,,04oct1954,"Embargo on Imports from Czech.",29,,31,"Czechoslovakia","Peru",315,135
+34,1954,0,0,0,0,1,2,0,1,1,0,0,0,.0032239,.0321338,.9088201,0,,05oct1954,"Luxury Tax on Imports",30,,32,"Italy","Greece",325,350
+35,1954,1,0,0,0,1,2,0,1,0,0,0,0,.0017703,.0187143,.9135802,0,,11oct1954,"Import Restrictions on Coal",31,,33,"United States","Germany",2,255
+36,1954,0,0,0,0,1,3,0,0,0,0,0,0,.0038514,.032852,.895068,0,,13oct1954,"Customs Stamp Tax, Jump to 2%",32,,34,"United States","France",2,220
+37,1954,1,0,0,0,1,2,0,1,0,0,0,0,.0021703,.0946019,.9784477,0,,26oct1954,"Import Restrictions on Coal",33,,35,"United States","Belgium",2,211
+38,1954,1,0,1,0,1,2,0,0,0,1,0,0,.05973,.0144857,.188876,1,1,26oct1954,"Duties--Starch & Potato Flour",34,,36,"Belgium","Germany",211,255
+39,1954,1,0,1,0,1,2,0,0,0,1,0,0,.1060168,.0189714,.1517857,1,1,26oct1954,"Duties--Starch & Potato Flour",34,,36,"Netherlands","Germany",210,255
+40,1954,1,0,1,0,1,2,0,0,0,1,0,0,.05973,.0144857,.0095704,1,1,26oct1954,"Duties--Starch & Potato Flour",34,,36,"Luxembourg","Germany",212,255
+41,1955,0,1,1,0,6,3,0,0,0,1,0,0,.0025425,.0205365,.8898364,1,1,26sep1955,"Customs Stamp Tax, Jump to 3%",35,,37,"United States","France",2,220
+42,1955,0,0,0,0,2,3,0,1,0,0,0,0,.032292,.0009153,.0275644,0,,28sep1955,"Hawaiian Regs on Imported Eggs",36,,38,"Australia","United States",900,2
+43,1955,0,1,0,0,0,2,0,1,0,0,0,0,.0064681,.0148526,.6966277,0,,11oct1955,"Turnover Tax on Pharmaceutical",37,,39,"United Kingdom","Italy",200,325
+44,1955,0,1,0,0,0,3,0,0,0,0,0,0,.0127148,.0023379,.1553144,0,,25oct1955,"Import Duties on Cheese",38,,40,"Denmark","Italy",390,325
+45,1956,0,0,0,0,0,1,0,1,0,1,0,0,.0018427,.0151674,.8916707,0,,12sep1956,"Auto Taxes",40,,41,"United States","France",2,220
+46,1956,0,0,1,0,1,2,0,0,0,1,0,0,.0024392,.0436893,.9471225,1,1,02nov1956,"Duty Increase on LP Records",42,,43,"Germany","Greece",255,350
+47,1956,0,0,0,0,1,3,0,1,0,0,0,1,.0007841,.0513525,.9849612,0,,16nov1956,"Auto Taxes",44,,45,"United States","Chile",2,155
+48,1957,0,0,0,0,0,3,0,1,0,1,0,0,.1451596,.011179,.071505,0,,24apr1957,"Export of Subsidized Eggs",45,,46,"Denmark","United Kingdom",390,200
+49,1957,1,0,1,0,3,1,0,1,0,1,0,0,.0058647,.0130272,.6895664,1,1,24jul1957,"Imported Agric. Machinery",46,,47,"United Kingdom","Italy",200,325
+50,1957,1,0,1,0,1,3,0,1,0,1,0,0,.0103191,.0109882,.5157012,1,1,03oct1957,"Imported Agric. Machinery",48,,48,"United Kingdom","France",200,220
+51,1957,1,0,0,0,1,1,0,0,0,0,0,0,.0442178,.0004646,.0103972,0,,28nov1957,"Art. XIX Action on Clothespins",49,,49,"Denmark","United States",390,2
+52,1957,1,0,0,0,1,1,0,0,0,0,0,0,.0306229,.0007672,.0244422,0,,28nov1957,"Art. XIX Action on Clothespins",49,,49,"Sweden","United States",380,2
+53,1958,1,0,1,0,2,2,0,1,0,1,0,0,.017339,.0038918,.1833108,1,1,14apr1958,"Assistance to Exports of Wheat",50,,50,"Australia","France",900,220
+54,1958,1,0,0,0,0,3,0,1,0,1,0,0,.0115442,.0054227,.3196054,0,,12sep1958,"Assistance to Exports of Flour",51,,51,"Australia","Italy",900,325
+55,1958,0,0,0,0,3,3,0,1,0,0,0,0,.0467267,.0084378,.1529572,0,,09oct1958,"Dom. Prod. of Ships Plate",52,,52,"Austria","Italy",305,325
+56,1959,1,0,0,1,0,3,1,0,0,1,0,0,.0122076,.0105019,.4624451,1,3,12mar1959,"Margin of Pref. of Pottery",53,,53,"Germany","United Kingdom",255,200
+74,1960,0,0,0,0,0,2,0,1,0,0,0,0,.0018651,.0293348,.9402198,0,,03jun1960,"Import Restrictions",57,1,,"United States","Italy",2,325
+73,1960,0,0,1,0,1,2,0,1,0,1,0,0,.001942,.0181999,.9035823,1,1,24nov1960,"Import Restrictions (Phase I)",56,1,56,"United States","France",2,220
+63,1961,1,1,1,0,2,2,1,1,1,1,1,0,.0112676,.0002545,.02209,1,1,31may1961,"Recourse to Article XXIII",54,1,54,"Uruguay","France",165,220
+57,1961,1,1,1,0,2,2,1,1,1,1,1,0,.0013085,.0002806,.1765741,1,1,21nov1961,"Recourse to Article XXIII",54,,54,"Uruguay","Austria",165,305
+58,1961,1,1,1,0,2,1,0,1,1,1,1,0,.0082144,.0009604,.1094818,1,1,21nov1961,"Recourse to Article XXIII",54,,54,"Uruguay","Belgium",165,211
+59,1961,1,0,0,1,1,1,1,1,1,1,1,0,.0023989,.0000806,.0325056,1,3,21nov1961,"Recourse to Article XXIII",54,,54,"Uruguay","Canada",165,20
+60,1961,1,0,0,1,1,1,0,1,0,1,1,0,.0023989,,,1,3,21nov1961,"Recourse to Article XXIII",54,,54,"Uruguay","Czechoslovakia",165,315
+61,1961,1,0,0,1,1,1,0,1,1,1,1,0,.0010904,.0002409,.1809451,1,3,21nov1961,"Recourse to Article XXIII",54,,54,"Uruguay","Denmark",165,390
+62,1961,1,0,0,1,1,1,1,1,1,1,1,0,.0011631,.0003161,.2136797,1,3,21nov1961,"Recourse to Article XXIII",54,,54,"Uruguay","Finland",165,375
+64,1961,1,1,1,0,2,2,1,1,1,1,1,0,.0215174,.0003662,.0167361,1,1,21nov1961,"Recourse to Article XXIII",54,,54,"Uruguay","Germany",165,255
+65,1961,1,1,1,0,2,2,1,1,1,1,1,0,.0083598,.0002896,.033486,1,1,21nov1961,"Recourse to Article XXIII",54,,54,"Uruguay","Italy",165,325
+66,1961,1,0,0,1,1,1,1,1,1,1,1,0,.0007269,.0000225,.0300024,1,3,21nov1961,"Recourse to Article XXIII",54,,54,"Uruguay","Japan",165,740
+67,1961,1,0,0,1,1,1,0,1,1,1,1,0,.0159927,.0018554,.1039566,1,3,21nov1961,"Recourse to Article XXIII",54,,54,"Uruguay","Netherlands",165,210
+68,1961,1,1,1,0,2,1,0,1,0,1,1,0,.0001454,.0000392,.2125402,1,1,21nov1961,"Recourse to Article XXIII",54,,54,"Uruguay","Norway",165,385
+69,1961,1,1,1,0,2,2,1,1,1,1,1,0,.005234,.0005106,.088886,1,1,21nov1961,"Recourse to Article XXIII",54,,54,"Uruguay","Sweden",165,380
+70,1961,1,0,1,0,1,1,0,1,1,1,,,,,,1,1,21nov1961,"Recourse to Article XXIII",54,,54,"Uruguay","Switzerland",165,225
+71,1961,1,0,1,0,1,1,1,1,1,1,1,0,.0617898,.0001661,.0026811,1,1,21nov1961,"Recourse to Article XXIII",54,,54,"Uruguay","United States",165,2
+72,1961,1,0,1,0,1,3,1,0,0,1,1,0,.0076502,.0016022,.1731628,1,1,09dec1961,"Preferences on Bananas",55,,55,"Brazil","United Kingdom",140,200
+75,1962,0,0,1,0,1,3,1,1,0,1,0,0,.0139649,.1819987,.9287374,1,1,09nov1962,""Value for Duty" -- Potatoes",58,,57,"United States","Canada",2,20
+76,1963,0,0,0,0,1,3,0,0,0,1,0,0,.0457905,.0121545,.2097597,1,2,18oct1963,"Chicken War: Article XXVIII",59,,58,"European Community","United States",995,2
+77,1969,0,0,0,0,2,2,1,0,0,0,0,0,.0025831,.0265107,.9112142,0,,01dec1969,"Administrative & Statist. Fees",60,,59,"United States","Italy",2,325
+78,1970,0,0,0,0,0,2,0,1,0,0,0,0,.0286889,.003571,.1106951,0,,28apr1970,"Emerg. Action on Table Apples",62,,61,"Australia","European Community",900,995
+79,1970,0,0,0,0,0,2,0,1,0,0,0,0,.0004999,.0327493,.9849637,0,,14sep1970,"Import Restrictions on Grains",63,,62,"United States","Denmark",2,390
+80,1970,0,0,0,0,1,3,1,0,0,1,0,1,.0003497,.2699708,.9987065,1,2,18sep1970,"Margins of Preference",64,,63,"United States","Jamaica",2,51
+81,1972,0,1,0,0,0,3,0,0,0,0,0,0,.0149557,.0473632,.7600126,0,,30jun1972,"Compensatory Taxes on Imports",65,,64,"United States","European Community",2,995
+82,1972,0,0,0,0,1,3,0,1,0,1,1,0,.0638018,.0026646,.0400899,0,,01sep1972,"Restrictions--Cotton Textiles",66,,65,"Israel","United Kingdom",666,200
+83,1972,0,0,0,0,0,2,0,1,0,0,0,0,.0023137,.0158914,.8729114,0,,12sep1972,"Import Restrictions (Phase II)",67,,66,"United States","France",2,220
+84,1972,1,0,0,0,1,2,1,1,0,1,0,0,.0045881,.0358876,.886646,0,,17oct1972,"Dollar Area Quotas",68,,67,"United States","United Kingdom",2,200
+85,1973,0,0,1,0,11,2,0,1,0,1,0,0,.0444607,.0154171,.2574766,1,1,01may1973,"Income Tax Legislation (DISC)",69,,68,"European Community","United States",995,2
+86,1973,1,0,0,1,8,1,0,1,0,1,0,0,.0025444,.0156655,.8602751,1,3,17may1973,"Income Tax Practices",70,,70,"United States","France",2,220
+87,1973,1,0,0,1,8,1,0,1,0,1,0,0,.0017947,.0588305,.9716365,1,3,17may1973,"Income Tax Practices",71,,69,"United States","Belgium",2,211
+88,1973,1,0,0,1,8,1,0,1,0,1,0,0,.0021148,.0523054,.9611398,1,3,17may1973,"Income Tax Practices",72,,71,"United States","Netherlands",2,210
+89,1974,1,0,0,0,1,1,0,0,0,1,0,0,.0458196,.0078036,.1455258,0,,04nov1974,"Adequacy--XXIV:6 Compensation",73,,72,"Canada","European Community",20,995
+90,1974,0,0,0,0,1,2,0,1,0,0,0,0,.057907,.0106576,.1554395,0,,29nov1974,"Restrictions on Beef and Veal",74,1,,"Australia","Japan",900,740
+91,1975,0,0,0,0,1,3,0,1,0,1,0,0,.029987,.2809855,.9035704,1,2,10sep1975,"Import Quotas on Eggs",75,,73,"United States","Canada",2,20
+92,1976,1,0,1,0,2,3,1,1,0,1,0,0,.0256973,.0412209,.6159897,1,1,29mar1976,"Minimum Import Prices (MIPS)",76,,74,"United States","European Community",2,995
+93,1976,1,0,0,1,2,1,0,1,0,1,0,0,.0462874,.0046961,.092111,1,3,30mar1976,"Licenses on Peaches & Pears",77,,75,"Australia","European Community",900,995
+94,1976,0,0,0,0,0,3,0,1,0,1,0,0,.0256973,.0412209,.6159897,1,2,27apr1976,"Animal Feed Proteins",78,,76,"United States","European Community",2,995
+95,1976,0,0,0,0,2,1,0,0,0,1,0,0,.0076122,.0446414,.8543212,1,2,02nov1976,"W/d of Concessions - XXVIII:3",79,,77,"European Community","Canada",995,20
+96,1977,0,0,1,0,1,3,1,1,0,1,0,0,.0494838,.015691,.2407523,1,1,16may1977,"CVDs--Zenith Case",80,,,"Japan","United States",740,2
+97,1977,0,0,0,0,1,2,1,1,0,1,0,0,.0152862,.0482073,.7592477,0,,26jul1977,"Measures on Thrown Silk Yarn",81,1,78,"United States","Japan",2,740
+98,1977,0,0,0,0,1,1,0,1,0,0,1,0,.0980365,.0009603,.0096998,0,,01nov1977,"Export Refunds - Malted Barley",82,,79,"Chile","European Community",155,995
+99,1978,0,0,0,0,1,2,1,1,0,0,1,0,.0590286,.0019338,.0317213,0,,14mar1978,"UK Imports of Korean TVs-XIX",83,,,"Korea, Republic of","European Community",732,995
+100,1978,1,0,1,0,6,2,1,1,0,1,0,0,.0111618,.0701447,.8627191,1,1,17may1978,"Restrictions- Certain Textiles (for Hong Kong)",84,1,80,"United Kingdom","Norway",200,385
+101,1978,1,0,0,0,1,2,1,1,0,1,0,0,.0155715,.0444594,.7406089,0,,20jul1978,"Measures on Leather (I)",85,,81,"United States","Japan",2,740
+102,1978,1,0,0,1,3,1,0,1,0,1,0,0,.0507998,.0047127,.084894,1,3,25sep1978,"Refunds on Exports of Sugar",86,,82,"Australia","European Community",900,995
+103,1978,1,0,0,1,3,1,0,1,0,1,1,0,.0368873,.0057066,.1339772,1,3,14nov1978,"Refunds on Exports of Sugar",87,,83,"Brazil","European Community",140,995
+104,1978,0,0,0,0,1,3,1,1,0,0,0,0,.045595,.0263157,.3659502,0,,13dec1978,"Application of CVDs",88,,84,"European Community","United States",995,2
+105,1979,0,0,0,0,0,1,1,1,0,1,1,0,.0846784,.0009237,.010791,1,2,19jun1979,"Restriction--Apples from Chile",89,,85,"Chile","European Community",155,995
+106,1979,1,0,0,0,1,2,0,1,0,1,0,0,.0224354,.0049004,.1792667,0,,26oct1979,"Measures on Leather",90,,86,"Canada","Japan",20,740
+107,1979,0,0,0,1,2,1,0,1,0,1,0,0,.0015043,.0227798,.9380555,1,3,01nov1979,"Soyabean Oil",91,,87,"United States","Spain",2,230
+108,1979,1,0,0,0,7,2,0,1,0,1,0,0,.0176563,.0405185,.6964951,0,,09nov1979,"Manufactured Tobacco",92,,88,"United States","Japan",2,740
+109,1980,0,0,1,0,0,3,1,1,0,1,0,0,.3137906,.0297683,.0866469,1,1,25jan1980,"Prohibition on Imports of Tuna",93,,89,"Canada","United States",20,2
+110,1980,0,0,1,0,2,3,1,0,0,1,1,0,.0021012,.0024,.5331945,1,1,29feb1980,"Unroasted Coffee",94,,90,"Brazil","Spain",140,230
+111,1980,0,0,1,0,1,3,1,1,0,1,0,0,.0474285,.0064668,.1199886,1,1,26mar1980,"Imports of Beef",95,,91,"Canada","European Community",20,995
+112,1980,1,0,0,0,0,2,0,1,0,0,1,0,.0111948,.0015678,.1228425,0,,11apr1980,"Measures on Leather",96,,,"India","Japan",750,740
+113,1980,0,0,0,0,1,1,0,1,0,1,0,0,.0314477,.0451988,.5897043,0,,19jun1980,""Spin-Chill" Poultry",97,,92,"United States","European Community",2,995
+119,1980,0,0,0,1,2,1,0,1,0,1,0,0,.0314477,.0451988,.5897043,1,3,24jul1980,"Subsidies on Wheat Flour",103,1,,"United States","European Community",2,995
+140,1980,1,0,0,0,4,2,1,0,0,1,0,0,.0314477,.0451988,.5897043,1,2,24jul1980,"Mediterranean Citrus Prefs.",113,1,102,"United States","European Community",2,995
+114,1980,0,0,0,0,1,3,1,1,0,1,1,0,.0138363,.0007874,.0538428,0,,29sep1980,"CVD w/o Injury",98,,93,"India","United States",750,2
+115,1981,0,0,0,0,0,1,0,1,0,0,0,0,.0338538,.0450314,.5708474,0,,22jan1981,"Export Subsidies - Greece",99,,,"United States","European Community",2,995
+116,1981,0,0,0,0,1,1,0,0,0,1,0,0,.047652,.0358239,.4291526,1,2,30mar1981,"Vitamin B12",100,,95,"European Community","United States",995,2
+117,1981,1,0,0,0,5,2,0,1,0,0,0,0,.047838,.0037609,.0728867,0,,11jun1981,"Prod. Subsidies - Canned Fruit",101,,96,"Australia","European Community",900,995
+118,1981,0,0,0,1,2,1,0,1,0,1,0,0,.3007581,.0295321,.0894126,1,3,30sep1981,"Spring Assemblies - 337",102,,97,"Canada","United States",20,2
+120,1981,0,0,1,0,6,3,1,1,0,1,,,,,,1,1,07dec1981,"QRs on Watches (for Hong Kong)",104,,98,"United Kingdom","European Community",200,995
+124,1982,1,0,1,0,3,3,0,1,0,1,0,0,.0284246,.2911524,.9110554,1,1,05jan1982,"FIRA",108,1,100,"United States","Canada",2,20
+121,1982,0,0,1,0,4,2,0,1,0,1,0,0,.0315925,.0514164,.6194085,1,1,24feb1982,"Subsidies on Pasta Products",105,,,"United States","European Community",2,995
+122,1982,1,0,0,0,2,2,0,1,0,0,0,0,.0315925,.0514164,.6194085,0,,24feb1982,"Subsidies on Poultry",106,,,"United States","European Community",2,995
+123,1982,1,0,0,0,4,2,0,1,0,1,0,0,.0315925,.0514164,.6194085,1,2,19mar1982,"Production Aids - Canned Fruit",107,,99,"United States","European Community",2,995
+125,1982,1,0,0,0,1,1,0,1,0,0,0,0,.0315925,.0514164,.6194085,0,,07apr1982,"Export Subsidies on Sugar",109,,,"United States","European Community",2,995
+126,1982,1,0,0,0,1,1,0,1,0,0,1,0,.0564308,.0023774,.0404268,0,,08apr1982,"Sugar Regime",110,,,"Argentina","European Community",160,995
+127,1982,1,0,0,0,1,1,0,1,0,0,0,0,.0404753,.0039532,.0889783,0,,08apr1982,"Sugar Regime",110,,101,"Australia","European Community",900,995
+128,1982,1,0,0,0,1,1,0,1,0,0,1,0,.0349094,.0049264,.1236684,0,,08apr1982,"Sugar Regime",110,,101,"Brazil","European Community",140,995
+129,1982,1,0,0,0,1,1,0,1,0,0,1,0,.0499035,.0009722,.0191087,0,,08apr1982,"Sugar Regime",110,,101,"Colombia","European Community",100,995
+130,1982,1,0,0,0,1,1,0,1,0,0,1,0,,.0165942,,0,,08apr1982,"Sugar Regime",110,,101,"Cuba","European Community",40,995
+131,1982,1,0,0,0,1,1,0,1,0,0,1,0,.0252471,.0000982,.0038763,0,,08apr1982,"Sugar Regime",110,,101,"Dominican Republic","European Community",42,995
+132,1982,1,0,0,0,1,1,0,1,0,0,1,0,.0242976,.0023283,.0874439,0,,08apr1982,"Sugar Regime",110,,101,"India","European Community",750,995
+133,1982,1,0,0,0,1,1,0,1,0,0,1,0,.0868169,.000115,.0013234,0,,08apr1982,"Sugar Regime",110,,101,"Nicaragua","European Community",93,995
+134,1982,1,0,0,0,1,1,0,1,0,0,1,0,.0621696,.0008318,.0132028,0,,08apr1982,"Sugar Regime",110,,101,"Peru","European Community",135,995
+135,1982,1,0,0,0,1,1,0,1,0,0,1,0,.0504221,.0009624,.0187298,0,,08apr1982,"Sugar Regime",110,,101,"Philippines","European Community",840,995
+136,1982,0,0,0,0,1,2,1,1,0,0,1,0,.0119532,.0007038,.055604,0,,22apr1982,"CVD Procedures",111,,,"India","United States",750,2
+137,1982,1,0,0,0,0,1,1,1,0,0,1,0,.0564308,.0023774,.0404268,0,,30apr1982,"Falklands War Embargo",112,,,"Argentina","European Community",160,995
+138,1982,1,0,0,0,0,1,1,1,0,0,1,0,.0027708,.0007347,.2095826,0,,30apr1982,"Falklands War Embargo",112,,,"Argentina","Canada",160,20
+139,1982,1,0,0,0,0,1,1,1,0,0,1,0,.0016917,.0007297,.3013619,0,,30apr1982,"Falklands War Embargo",112,,,"Argentina","Australia",160,900
+141,1982,0,0,1,0,5,3,0,1,0,1,0,0,.0315925,.0514164,.6194085,1,1,02jul1982,"VAT--Threshold",114,,,"United States","European Community",2,995
+142,1982,0,0,0,0,1,3,0,1,0,0,0,0,.0203096,.0527712,.7220937,0,,20sep1982,"Metal Softball Bats",115,,,"United States","Japan",2,740
+143,1982,0,0,0,0,0,3,0,0,0,0,0,0,.0219861,.4168157,.9498952,0,,08oct1982,"Imports of Table Grapes",117,,104,"European Community","Switzerland",995,225
+171,1982,1,0,0,0,4,3,0,1,0,0,0,0,.0425907,.0067672,.1371042,0,,11oct1982,"Ban on Seal Pup Skins",145,1,122,"Canada","European Community",20,995
+144,1982,0,0,0,0,2,1,1,0,0,0,0,0,.0210076,.0003731,.0174509,0,,01nov1982,"Suspension of MFN",118,,,"Poland","United States",290,2
+145,1982,0,0,0,0,1,3,0,1,0,0,0,0,.0234246,.0146722,.3851293,0,,21dec1982,"VCRs (Poitiers)",119,,105,"Japan","European Community",740,995
+146,1983,1,0,1,0,3,3,0,1,0,1,0,0,.0192779,.0560532,.7440908,1,1,05jan1983,"Measures on Leather (II)",120,,106,"United States","Japan",2,740
+147,1983,0,0,0,0,0,3,1,1,0,0,0,0,.2753156,.0264716,.087716,0,,17feb1983,"CVD--Softwood Lumber (I)",121,,,"Canada","United States",20,2
+148,1983,0,0,1,0,3,3,1,1,0,1,0,0,.0514808,.0292099,.3619981,1,1,08mar1983,"Manufacturing Clause",122,,107,"European Community","United States",995,2
+149,1983,0,0,0,0,0,3,0,1,0,1,0,0,.0514808,.0292099,.3619981,0,,07apr1983,"Export Subsidy- Flour to Egypt",123,,,"European Community","United States",995,2
+150,1983,0,0,0,0,0,1,0,1,0,0,0,0,.0135446,.0223455,.6226093,0,,08apr1983,"N&I of Benefits",124,,108,"European Community","Japan",995,740
+151,1983,0,0,1,0,1,1,1,1,0,1,1,0,.093663,.0000728,.0007764,1,1,15may1983,"Sugar Quota",125,,109,"Nicaragua","United States",93,2
+152,1983,1,0,0,0,1,2,0,1,0,0,0,1,.0025534,.0286017,.9180418,0,,27sep1983,"Subsidies on Poultry",126,,,"United States","Brazil",2,140
+153,1983,0,0,0,0,1,1,0,0,0,0,0,0,.0514808,.0292099,.3619981,0,,30sep1983,"Machine-Threshed Tobacco",127,,110,"European Community","United States",995,2
+154,1983,0,0,0,0,1,1,1,1,0,0,0,0,.0061544,.0363177,.8550963,0,,11nov1983,"AD Duty on Generators",128,,,"European Community","Canada",995,20
+155,1984,1,0,0,0,0,2,0,0,0,1,0,0,.0332703,.0062801,.1587884,1,2,12jan1984,"Imports of Newsprint",129,,111,"Canada","European Community",20,995
+156,1984,0,1,1,0,0,3,0,1,0,1,0,0,.0120175,.1320924,.916609,1,1,20feb1984,"Homologation Reqts - Radiators",130,,,"European Community","Spain",995,230
+157,1984,0,0,0,0,0,1,0,0,0,0,0,1,.0009658,.0851458,.9887846,0,,14may1984,"Import Measures - Dairy Prods.",131,,112,"European Community","Chile",995,155
+158,1984,0,0,1,0,2,3,0,1,0,1,1,0,.003166,.0007904,.1997843,1,1,03jul1984,"Sales Tax on Gold Coins",132,,113,"South Africa","Canada",560,20
+159,1984,0,0,1,0,1,3,1,1,0,1,0,0,.0003076,.0006444,.6768909,1,1,11jul1984,"AD Duty on Transformers",133,,114,"Finland","New Zealand",375,920
+160,1984,1,0,0,0,1,1,0,1,0,0,0,0,.0332703,.0062801,.1587884,0,,10aug1984,"Boneless Mfg Beef (I)",134,,,"Canada","European Community",20,995
+161,1984,1,0,0,0,6,2,0,1,0,0,0,0,.0428576,.0043406,.091966,0,,26oct1984,"Beef & Veal Regime",135,,115,"Australia","European Community",900,995
+162,1984,0,0,0,0,2,2,0,1,1,0,0,0,.0191781,.0551727,.7420592,0,,08nov1984,"Single Tendering Procedures",136,,,"United States","Japan",2,740
+164,1984,0,0,0,0,1,2,1,1,0,0,0,0,.0524236,.0267565,.337919,0,,20nov1984,"Ban on Steel Pipe & Tube",138,1,116,"European Community","United States",995,2
+560,1984,,,0,0,,2,,,,0,0,0,.291712,.0281041,.0878757,0,,20nov1984,"Marking Requirement for Pipes and Tubes in Section 207 of Trade & Tariff Act of",,1,,"Canada","United States",20,2
+561,1984,,,0,0,,2,,,,0,0,0,.0366425,.0018941,.0491516,0,,20nov1984,"Marking Requirement for Pipes and Tubes in Section 207 of Trade & Tariff Act of",,1,,"Australia","United States",900,2
+562,1984,,,0,0,,2,,,,0,0,0,.030762,.0014284,.0443736,0,,20nov1984,"Marking Requirement for Pipes and Tubes in Section 207 of Trade & Tariff Act of",,1,,"Spain","United States",230,2
+163,1984,0,0,1,0,2,3,1,1,0,1,0,0,.0524236,.0267565,.337919,1,1,29nov1984,"Def. of "Industry" - Wine",137,,,"European Community","United States",995,2
+564,1985,,,0,0,,2,,,,0,0,1,.0028822,.0522082,.9476831,0,,22jan1985,"Brazilian Informatics Policy (Treatment of Electronic Data Processing Equipment)",,1,,"United States","Brazil",2,140
+165,1985,0,0,0,0,3,2,0,1,0,1,0,0,.0070761,.0344658,.8296637,1,2,12feb1985,"Provincial Liquor Boards (I)",139,,117,"European Community","Canada",995,20
+166,1985,1,0,0,0,3,2,0,1,0,1,0,0,.3434229,.0310259,.0828575,0,,01mar1985,"Sugar-Containing Products",140,,118,"Canada","United States",20,2
+167,1985,0,0,0,0,1,3,0,1,0,1,0,0,.0221704,.0663435,.7495263,0,,12mar1985,"QRs on Leather Footwear",141,,119,"United States","Japan",2,740
+168,1985,0,0,0,0,0,1,0,1,1,0,0,0,.0283229,.0643649,.6944264,0,,26apr1985,"French Computer Lit. Program",142,,,"United States","European Community",2,995
+169,1985,0,0,0,0,2,1,1,1,0,1,1,0,.0586275,.0000483,.0008227,1,2,08may1985,"Trade Embargo",143,1,120,"Nicaragua","United States",93,2
+170,1985,0,0,0,0,0,2,1,1,0,0,0,0,.0701035,.0004078,.0057831,0,,02sep1985,"Cotton Pillowcases & Sheets",144,,121,"Portugal","United States",235,2
+172,1986,0,0,0,0,1,1,0,1,1,0,1,0,.0438719,.0024161,.0521979,0,,13may1986,"Non-Beverage Ethyl Alcohol",146,,123,"Brazil","United States",140,2
+173,1986,0,0,0,0,1,2,1,1,0,1,0,0,.3433568,.0297068,.0796293,0,,02jul1986,"CVD on Softwood Lumber (II)",147,,,"Canada","United States",20,2
+174,1986,1,0,1,0,2,2,0,1,0,1,0,0,.0234699,.070731,.7508524,1,1,15jul1986,"Twelve Agricultural Products",148,,124,"United States","Japan",2,740
+183,1986,1,0,1,0,3,3,0,1,0,1,0,0,.0167629,.0216798,.5639519,1,1,22jul1986,"Restrictions on Alcoholic Bevs",154,1,128,"European Community","Japan",995,740
+175,1986,1,0,1,0,2,1,1,1,0,1,0,0,.0074185,.0367974,.8322205,1,1,30jul1986,"CVD on Boneless Mfg Beef",149,,,"European Community","Canada",995,20
+185,1986,1,0,0,0,2,2,1,1,1,1,0,0,.0167629,.0216798,.5639519,1,2,08oct1986,"Restrictions on Semiconductors",156,1,130,"European Community","Japan",995,740
+176,1986,0,0,0,0,1,3,0,1,0,0,0,0,.0234699,.070731,.7508524,0,,24oct1986,"Herring, Pollock & Surimi",150,,125,"United States","Japan",2,740
+177,1986,0,0,0,0,1,1,1,1,0,0,0,0,.0074185,.0367974,.8322205,0,,24oct1986,"CVD on Pasta",151,,,"European Community","Canada",995,20
+181,1986,1,0,1,0,4,3,0,0,0,1,0,0,.0640746,.0274977,.3002837,1,1,27oct1986,"Customs User Fee",153,,127,"European Community","United States",995,2
+178,1986,1,0,1,0,3,3,0,1,1,1,1,0,.156215,.0070005,.0428913,1,1,30oct1986,"Taxes on Petroleum - Superfund",152,1,126,"Mexico","United States",70,2
+180,1986,1,0,1,0,3,3,0,1,0,1,0,0,.0640746,.0274977,.3002837,1,1,30oct1986,"Taxes on Petroleum - Superfund",152,1,126,"European Community","United States",995,2
+179,1986,1,0,1,0,3,3,0,1,0,1,0,0,.3433568,.0297068,.0796293,1,1,07nov1986,"Taxes on Petroleum - Superfund",152,1,126,"Canada","United States",20,2
+182,1986,1,0,1,0,4,3,0,0,0,1,0,0,.3433568,.0297068,.0796293,1,1,10nov1986,"Customs User Fee",153,1,127,"Canada","United States",20,2
+189,1986,0,0,0,0,0,2,0,1,0,0,0,0,.0640746,.0274977,.3002837,0,,01dec1986,"Tax Reform- Passenger Aircraft",160,1,132,"European Community","United States",995,2
+184,1986,0,0,0,0,2,2,0,1,0,0,0,0,.0288222,.3331322,.9203706,0,,12dec1986,"Restrictions on Uranium Export",155,,129,"United States","Canada",2,20
+186,1987,0,0,1,0,3,2,0,1,0,1,0,0,.0267086,.3141831,.9216508,1,1,20feb1987,"Unprocessed Salmon & Herring",157,,131,"United States","Canada",2,20
+187,1987,0,0,0,0,0,1,0,1,1,0,0,0,.0310855,.0506772,.6198084,0,,25feb1987,"Govt Financing of Airbus",158,,,"United States","European Community",2,995
+188,1987,0,0,0,0,2,1,0,1,0,0,0,0,.0310855,.0506772,.6198084,0,,09mar1987,"Animal Hormones Directive",159,,,"United States","European Community",2,995
+190,1987,1,0,0,0,4,3,1,0,0,0,0,0,.0559306,.0260856,.3180543,0,,21apr1987,"Semiconductor Retaliation",161,,133,"Japan","United States",740,2
+191,1987,1,0,1,0,6,1,0,1,0,1,0,0,.0500773,.0307175,.3801916,1,1,29apr1987,"Section 337--Aramid Fibres",162,,134,"European Community","United States",995,2
+192,1987,0,0,0,0,1,3,0,1,0,1,0,1,.0009374,.0174711,.9490768,0,,17jun1987,"Import Restrictions on Almonds",163,,135,"United States","India",2,750
+193,1987,0,0,0,0,1,3,0,1,0,1,0,1,.0009374,.0174711,.9490768,0,,17jun1987,"Import Licenses on Almonds",164,,,"United States","India",2,750
+194,1987,0,0,0,0,2,1,0,1,1,0,0,0,.0500773,.0307175,.3801916,0,,08jul1987,"Procurement of Machine Tools",165,,,"European Community","United States",995,2
+195,1987,1,0,0,0,1,3,0,0,0,0,1,0,.0302972,.0012838,.0406503,0,,08jul1987,"EEC Enlarged--Spain & Portugal",166,,136,"Argentina","European Community",160,995
+196,1987,1,0,0,0,1,3,0,1,0,0,0,0,.3226011,.0274242,.0783492,0,,15sep1987,"Section 337-Cellular Phones",167,,137,"Canada","United States",20,2
+197,1987,0,0,0,0,1,3,0,1,0,1,0,0,.0310855,.0506772,.6198084,0,,29sep1987,"Third-Country Meat Directive",168,,138,"United States","European Community",2,995
+198,1987,1,0,0,1,2,1,1,0,0,1,0,0,.0285701,.0052075,.15417,1,3,18nov1987,"Spruce-Pine-Fur (SPF) Lumber",169,,139,"Canada","Japan",20,740
+199,1987,0,0,0,0,1,3,1,1,1,0,1,0,.0365596,.0022968,.0591101,0,,27nov1987,"Informatics Retaliation",170,,140,"Brazil","United States",140,2
+200,1988,1,0,1,0,2,2,0,1,0,1,0,0,.0005203,.02602,.9803956,1,1,22jan1988,"Restrictions on Apples & Pears",171,,141,"United States","Norway",2,385
+201,1988,1,0,0,0,0,3,0,1,0,0,0,0,.0015183,.0425854,.9655744,0,,22jan1988,"Restrictions on Apples & Pears",172,,142,"United States","Sweden",2,380
+202,1988,1,0,0,0,2,2,0,1,1,1,0,1,.0057618,.1913914,.970775,1,2,11mar1988,"Restrictions on Beef Imports",173,,143,"United States","Korea, Republic of",2,732
+203,1988,1,0,0,0,2,2,0,1,1,1,0,1,.0083858,.0129066,.6061603,1,2,22mar1988,"Restrictions on Beef Imports",174,,144,"Australia","Korea, Republic of",900,732
+204,1988,0,0,0,0,0,3,0,1,0,0,0,0,.0320322,.0449147,.5837105,0,,22mar1988,"Greek Restrictions on Almonds",175,,146,"United States","European Community",2,995
+205,1988,1,0,0,0,0,3,0,1,0,1,0,0,.0256891,.0481035,.651874,0,,29mar1988,"Restrictions on Beef & Citrus",176,,147,"United States","Japan",2,740
+206,1988,1,0,0,0,0,3,0,1,0,1,0,0,.0596124,.0051721,.0798356,0,,08apr1988,"Restrictions on Beef",177,,148,"Australia","Japan",900,740
+207,1988,0,0,0,0,1,2,1,1,0,0,1,0,.0925243,.0004226,.0045467,0,,22apr1988,"Quality Standards for Grapes",178,,150,"Chile","United States",155,2
+208,1988,1,0,1,0,4,3,0,1,0,1,0,0,.0320322,.0449147,.5837105,1,1,22apr1988,"Oilseeds Subsidy",179,,151,"United States","European Community",2,995
+209,1988,1,0,1,0,1,2,0,1,0,1,1,0,.1248324,.0007995,.0063637,1,1,22apr1988,"Licenses for Dessert Apples",180,,152,"Chile","European Community",155,995
+210,1988,1,0,0,0,2,2,0,1,1,1,0,1,.007703,.0020555,.2106354,1,2,27apr1988,"Restrictions on Beef Imports",181,,145,"New Zealand","Korea, Republic of",920,732
+211,1988,1,0,1,0,0,2,0,1,0,1,0,0,.0894236,.0010073,.0111385,1,1,27apr1988,"Licenses for Dessert Apples",182,,153,"New Zealand","European Community",920,995
+212,1988,1,0,0,0,0,3,1,1,0,0,0,0,.0695281,.0010459,.0148195,0,,02may1988,"Restrictions on Beef",183,,149,"New Zealand","Japan",920,740
+213,1988,1,0,1,0,0,2,0,1,0,1,0,0,.0320322,.0449147,.5837105,1,1,04may1988,"Licenses for Dessert Apples",184,,154,"United States","European Community",2,995
+214,1988,0,0,0,1,4,1,1,1,0,1,1,0,.0365712,.0023752,.0609857,1,3,31may1988,"CVD on Non-Rubber Footwear",185,,,"Brazil","United States",140,2
+215,1988,1,0,0,1,2,1,0,1,1,1,0,0,.0463241,.0330373,.4162895,1,3,16jun1988,"1955 Waiver - Headnote",186,,155,"European Community","United States",995,2
+216,1988,1,0,1,0,2,1,0,1,0,1,0,0,.0431135,.0019976,.0442826,1,1,19jul1988,"Restrictions on Sugar",187,1,156,"Australia","United States",900,2
+217,1988,1,0,1,0,2,1,1,1,1,1,0,0,.0232282,.0173936,.4281844,1,1,08aug1988,"Screwdriver Assembly",188,,157,"Japan","European Community",740,995
+218,1988,0,0,0,0,2,3,1,0,0,1,1,0,.0365712,.0023752,.0609857,0,,24aug1988,"Pharmaceuticals Retaliation",189,,158,"Brazil","United States",140,2
+219,1988,1,0,0,0,2,1,0,1,0,0,1,0,.0365712,.0023752,.0609857,0,,31aug1988,"EEP Subsidy",190,,,"Brazil","United States",140,2
+220,1988,1,0,1,0,4,1,1,1,0,1,0,0,.0471196,.00168,.0344256,1,1,20sep1988,"AD Duties on Pipes & Tubes",191,,,"Sweden","United States",380,2
+221,1988,0,0,0,0,1,1,0,1,1,0,0,0,.0236109,.0004589,.0190659,0,,07oct1988,"Procurement of Research Vessel",192,,,"Finland","United States",375,2
+222,1988,0,0,0,0,1,2,1,0,0,0,0,0,.0463241,.0330373,.4162895,0,,28nov1988,"Hormones Retaliation",193,,159,"European Community","United States",995,2
+223,1988,0,0,0,0,1,1,1,1,0,0,0,0,.3309756,.0303108,.0838969,0,,09dec1988,"Prohibition on Ice Cream",194,,160,"Canada","United States",20,2
+224,1988,1,0,1,0,3,1,0,1,0,1,0,0,.029002,.3166843,.9161031,1,1,09dec1988,"QR on Ice Cream & Yoghurt",195,,161,"United States","Canada",2,20
+225,1989,0,0,1,0,3,3,0,1,0,1,0,0,.0336712,.0451992,.5730822,1,1,03apr1989,"Govt Financing of Airbus Industries",196,,,"United States","European Community",2,995
+226,1989,0,0,0,0,0,3,0,1,0,1,0,0,.0336712,.0451992,.5730822,0,,08jun1989,"Restraints on Copper Scrap",198,,162,"United States","European Community",2,995
+227,1989,0,0,0,0,0,1,1,1,0,0,1,0,.283833,.0045523,.0157853,0,,27jun1989,"AD Duty on Video Cassettes",199,,,"Hong Kong","European Community",997,995
+230,1989,1,0,0,0,1,3,0,1,0,0,0,0,.0004214,.0197999,.9791598,0,,03jul1989,"Restrictions on Apples & Pears",202,1,165,"United States","Finland",2,375
+228,1989,0,0,0,0,0,3,1,1,0,0,0,0,.0451286,.0336186,.4269178,0,,18jul1989,"301 Retaliation Threat-Oilseed",200,,163,"European Community","United States",995,2
+229,1989,1,0,0,0,3,3,0,1,0,0,0,0,.0450414,.0060663,.1186967,0,,01sep1989,"Oilseeds Subsidies",201,,164,"Canada","European Community",20,995
+574,1989,,,0,0,,1,,,,0,0,0,.0003847,.014802,.974667,0,,01sep1989,"Measures to be Taken under the European Convention on Transfrontier Television",,1,,"United States","Austria",2,305
+575,1989,,,0,0,,1,,,,0,0,0,.0024789,.0744338,.9983976,0,,01sep1989,"Measures to be Taken under the European Convention on Transfrontier Television",,1,,"United States","Luxembourg",2,212
+576,1989,,,0,0,,1,,,,0,0,0,.0030635,.0645473,.9546898,0,,01sep1989,"Measures to be Taken under the European Convention on Transfrontier Television",,1,,"United States","Netherlands",2,210
+577,1989,,,0,0,,1,,,,0,0,0,.0005104,.0253714,.9802806,0,,01sep1989,"Measures to be Taken under the European Convention on Transfrontier Television",,1,,"United States","Norway",2,385
+578,1989,,,0,0,,1,,,,0,0,0,.0015746,.0222829,.934001,0,,01sep1989,"Measures to be Taken under the European Convention on Transfrontier Television",,1,,"United States","Spain",2,230
+579,1989,,,0,0,,1,,,,0,0,0,.0016225,.0435195,.9640572,0,,01sep1989,"Measures to be Taken under the European Convention on Transfrontier Television",,1,,"United States","Sweden",2,380
+580,1989,,,0,0,,1,,,,0,0,0,.001816,.047538,.9632042,0,,01sep1989,"Measures to be Taken under the European Convention on Transfrontier Television",,1,,"United States","Switzerland",2,225
+581,1989,,,0,0,,1,,,,0,0,0,.0075803,.0442582,.8537701,0,,01sep1989,"Measures to be Taken under the European Convention on Transfrontier Television",,1,,"United States","United Kingdom",2,200
+231,1989,0,0,1,0,2,3,1,1,0,1,0,0,.3240327,.0325109,.0911836,1,1,28sep1989,"CVD on Pork",203,,166,"Canada","United States",20,2
+232,1989,0,0,0,0,1,2,0,1,1,0,0,0,.0005104,.0253714,.9802806,0,,06oct1989,"Oslo Toll Ring Project",204,,,"United States","Norway",2,385
+233,1989,0,0,1,0,3,3,1,1,0,1,0,0,.0309736,.3087102,.9088164,1,1,09oct1989,"CVD Injury-Grain Corn",205,,,"United States","Canada",2,20
+234,1989,0,0,0,0,1,3,0,1,0,0,0,1,.0029169,.0431356,.9366612,0,,11oct1989,"QRs on Certain Ag & Mfd Products",206,,167,"United States","Brazil",2,140
+235,1989,0,0,0,0,1,1,0,1,0,0,0,1,.0009763,.1469378,.9933992,0,,08nov1989,"Internal Taxes on Spirits",207,,168,"European Community","Chile",995,155
+237,1990,0,0,1,0,0,3,0,1,1,1,0,1,.0013167,.0958743,.9864525,1,1,03feb1990,"Import restrictions on cigarettes",,,169,"United States","Thailand",2,800
+236,1990,0,0,0,0,1,1,1,1,0,0,0,0,.2222802,.0213353,.0875778,0,,21feb1990,"Truck traffic restrictions",,1,,"Austria","Germany",305,255
+478,1990,,,0,0,,3,,,,0,0,0,.0005997,.0319247,.9815613,0,,17may1990,"Restrictions on Imports of Apples and Pears (II)",,,172,"United States","Norway",2,385
+238,1990,0,0,1,0,3,2,1,1,0,1,0,0,.0318987,.3073627,.905976,1,1,04jul1990,"Provincial liquor boards (II)",,,173,"United States","Canada",2,20
+239,1990,1,0,1,0,2,3,1,1,0,1,1,0,.1955462,.008293,.0406843,1,1,05nov1990,"Tuna import prohibition",,,175,"Mexico","United States",70,2
+242,1991,0,0,1,0,1,1,0,1,1,1,0,0,.0440189,.0362811,.4518198,1,1,01feb1991,"NSF sonar mapping procurement",,,,"European Community","United States",995,2
+240,1991,0,0,1,0,3,2,0,1,0,1,0,0,.3259151,.0336045,.0934706,1,1,11feb1991,"Alcoholic and malt beverages",,,178,"Canada","United States",20,2
+243,1991,0,0,1,0,1,2,0,1,1,1,0,0,.0005843,.0281067,.9796363,1,1,01mar1991,"Trondheim toll ring procurement",,,,"United States","Norway",2,385
+244,1991,0,0,0,0,2,2,1,1,0,1,0,0,.0374872,.0007792,.0203637,1,2,05mar1991,"CVD on salmon imports",,1,179,"Norway","United States",385,2
+279,1991,1,0,0,0,,2,0,0,0,0,0,0,.0600591,.0060104,.0909702,0,,18mar1991,"Restricts on dairy prods & starch, compliance with 1987 panel ruling",,1,,"Australia","Japan",900,740
+280,1991,1,0,0,0,,2,0,0,0,0,0,0,.0688726,.0009995,.0143049,0,,18mar1991,"Restricts on dairy prods & starch, compliance with 1987 panel ruling",,1,,"New Zealand","Japan",920,740
+587,1991,1,,0,0,,2,,,,0,0,0,.0255044,.0476943,.6515728,0,,18mar1991,"Restricts on dairy prods & starch, compliance with 1987 panel ruling",,1,,"United States","Japan",2,740
+588,1991,1,,0,0,,2,,,,0,1,0,.0037392,.0001778,.0453941,0,,18mar1991,"Restricts on dairy prods & starch, compliance with 1987 panel ruling",,1,,"Argentina","Japan",160,740
+589,1991,1,,0,0,,2,,,,0,0,0,.0253996,.0048975,.1616481,0,,18mar1991,"Restricts on dairy prods & starch, compliance with 1987 panel ruling",,1,,"Canada","Japan",20,740
+590,1991,1,,0,0,,2,,,,0,1,0,.1653646,.0047518,.0279325,0,,18mar1991,"Restricts on dairy prods & starch, compliance with 1987 panel ruling",,1,,"Thailand","Japan",800,740
+591,1991,1,,0,0,,2,,,,0,1,0,.007713,.0000217,.0028077,0,,18mar1991,"Restricts on dairy prods & starch, compliance with 1987 panel ruling",,1,,"Uruguay","Japan",165,740
+241,1991,0,0,1,0,1,2,1,1,0,1,1,0,.1903364,.0090113,.0452038,1,1,01jul1991,"AD duties on Mexican cement",,,,"Mexico","United States",70,2
+256,1991,0,0,0,0,2,3,1,1,0,1,0,0,.3259151,.0336045,.0934706,0,,01sep1991,"CVD on pure and alloy magnesium",,,,"Canada","United States",20,2
+482,1991,,,0,0,,2,,,,0,0,0,.0348651,.0423008,.5481802,0,,17sep1991,"Measures Affecting Imports of Corn Gluten Feed",,,180,"United States","European Community",2,995
+245,1991,0,0,0,0,2,1,1,1,0,1,0,0,.3259151,.0336045,.0934706,1,2,01nov1991,"CVD on Softwood Lumber (III)",,,,"Canada","United States",20,2
+252,1992,0,0,0,0,0,3,1,1,0,0,1,1,.0024158,.0031341,.5647089,0,,01jan1992,"AD proceeding on Brazilian textiles",,,,"Brazil","Mexico",140,70
+255,1992,0,0,1,0,2,1,1,1,0,1,0,0,.0360134,.0015092,.0402216,1,1,01jan1992,"AD duty on stainless steel plate",,,,"Sweden","United States",380,2
+257,1992,1,0,1,0,,1,0,1,0,1,0,0,.0309958,.0350713,.5308436,1,1,20mar1992,"Tuna Import Ban Extension",,,182,"European Community","United States",995,2
+251,1992,0,0,0,0,1,3,1,1,0,0,1,1,.0027879,.0008422,.2319921,0,,01jun1992,"AD duties on Pakistani cotton",,,,"Pakistan","Turkey",770,640
+246,1992,1,0,1,0,2,1,1,1,1,1,1,0,.065795,.0004224,.0063791,1,1,12jun1992,"Member States' Import Regimes for Bananas (I)",,1,188,"Colombia","European Community",100,995
+247,1992,1,0,1,0,2,1,1,1,1,1,1,0,.112529,.0000982,.0008718,1,1,12jun1992,"Member States' Import Regimes for Bananas (I)",,1,188,"Costa Rica","European Community",94,995
+248,1992,1,0,1,0,2,1,1,1,1,1,1,0,.0398792,.000058,.0014535,1,1,12jun1992,"Member States' Import Regimes for Bananas (I)",,1,188,"Guatemala","European Community",90,995
+249,1992,1,0,1,0,2,1,1,1,1,1,1,0,.0859924,.0000231,.000269,1,1,12jun1992,"Member States' Import Regimes for Bananas (I)",,1,188,"Nicaragua","European Community",93,995
+250,1992,1,0,1,0,2,1,1,1,1,1,1,0,.0791924,.0006551,.0082043,1,1,12jun1992,"Member States' Import Regimes for Bananas (I)",,1,188,"Venezuela","European Community",101,995
+258,1992,1,0,1,0,,1,0,1,0,1,0,0,.0514755,.0026157,.0483572,1,1,10jul1992,"Tuna Import Ban Extension",,,182,"Netherlands","United States",210,2
+487,1993,1,0,1,0,,1,,,,1,1,0,.0616098,.0004277,.0068943,1,1,28jan1993,"Import Regime for Bananas (II)",,1,189,"Colombia","European Community",100,995
+488,1993,1,0,1,0,,1,,,,1,1,0,.1062272,.000101,.0009497,1,1,28jan1993,"Import Regime for Bananas (II)",,1,189,"Costa Rica","European Community",94,995
+489,1993,1,0,1,0,,1,,,,1,1,0,.0444156,.0000654,.0014705,1,1,28jan1993,"Import Regime for Bananas (II)",,1,189,"Guatemala","European Community",90,995
+490,1993,1,0,1,0,,1,,,,1,1,0,.0723267,.0000188,.00026,1,1,28jan1993,"Import Regime for Bananas (II)",,1,189,"Nicaragua","European Community",93,995
+491,1993,1,0,1,0,,1,,,,1,1,0,.0719174,.0006164,.0084986,1,1,28jan1993,"Import Regime for Bananas (II)",,1,189,"Venezuela","European Community",101,995
+592,1993,,,0,0,,1,,,,0,1,0,.1915531,.0003079,.001605,0,,28jan1993,"Import Regime for Bananas (II)",,1,189,"Cameroon","European Community",471,995
+593,1993,,,0,0,,1,,,,0,1,0,.2633909,.0004144,.0015708,0,,28jan1993,"Import Regime for Bananas (II)",,1,189,"Cote d'Ivoire","European Community",437,995
+594,1993,,,0,0,,1,,,,0,1,0,.1597837,.0000718,.0004491,0,,28jan1993,"Import Regime for Bananas (II)",,1,189,"Jamaica","European Community",51,995
+253,1993,1,0,0,0,0,3,0,1,0,0,0,0,.0374974,.0030079,.0742603,0,,16jul1993,"Bovine semen restrictions",,,192,"Canada","European Community",20,995
+283,1993,1,0,0,0,1,3,0,1,0,1,1,0,.0201864,.000759,.0362369,1,2,23jul1993,"US Tobacco restrictions",,0,193,"Argentina","United States",160,2
+284,1993,1,0,0,0,1,3,0,1,0,1,1,0,.1495682,.0001479,.0009881,1,2,23jul1993,"US Tobacco restrictions",,0,193,"El Salvador","United States",92,2
+285,1993,1,0,0,0,1,3,0,1,0,1,1,0,.0310395,.0020112,.0608523,1,2,23jul1993,"US Tobacco restrictions",,0,193,"Brazil","United States",140,2
+286,1993,1,0,0,0,1,3,0,1,0,1,1,0,.1563597,.0002708,.001729,1,2,23jul1993,"US Tobacco restrictions",,0,193,"Guatemala","United States",90,2
+288,1993,1,0,0,0,1,3,0,1,0,1,1,0,.1083772,.0020039,.0181545,1,2,23jul1993,"US Tobacco restrictions",,0,193,"Thailand","United States",800,2
+289,1993,1,0,0,0,1,3,0,1,0,1,1,0,.0852482,.0005916,.0068923,1,2,23jul1993,"US Tobacco restrictions",,0,193,"Chile","United States",155,2
+290,1993,1,0,0,0,1,3,0,1,0,1,1,0,.0352365,.0000395,.0011188,1,2,23jul1993,"US Tobacco restrictions",,0,193,"Zimbabwe","United States",552,2
+291,1993,1,0,0,0,1,3,0,1,0,1,1,0,.1089758,.0008898,.0080986,1,2,23jul1993,"US Tobacco restrictions",,0,193,"Colombia","United States",100,2
+254,1993,0,0,0,0,1,2,1,1,0,0,0,0,.0374974,.0030079,.0742603,0,,18aug1993,"Restrictions on Canadian scallops",,1,,"Canada","European Community",20,995
+493,1993,1,0,0,0,,3,,,,1,0,0,.357024,.0336831,.0862106,1,2,27sep1993,"US Tobacco Restrictions",,0,193,"Canada","United States",20,2
+494,1993,,,0,0,,3,,,,0,0,0,.0293789,.0345527,.5404639,0,,06oct1993,"US Tobacco Restrictions",,0,193,"European Community","United States",995,2
+305,1994,0,0,0,0,,3,0,1,0,1,1,0,.2261641,.0021415,.0093801,0,,14jan1994,"Standards For Reformulated and Conventional Gasoline",,1,195,"Venezuela","United States",101,2

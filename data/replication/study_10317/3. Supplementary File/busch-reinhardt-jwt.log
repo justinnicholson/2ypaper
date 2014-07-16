@@ -1,0 +1,143 @@
+-------------------------------------------------------------------------------------------------
+       log:  C:\eresearch\published\JWT\busch-reinhardt-jwt.log
+  log type:  text
+ opened on:  14 Sep 2004, 11:47:42
+
+. * Log File for Models reported in Busch-Reinhardt 2003 Journal of World Trade article *
+. * Model 1 *
+. oprobit  concessions wto wtolnpc951 lnpc951 lnpc952 lng951 lng952 panel  ruling1 ruling2 ruling
+> 3 ag  sensitive  multilateral  discrim, robust cluster(dyad)
+
+Iteration 0:   log pseudo-likelihood = -390.89972
+Iteration 1:   log pseudo-likelihood = -345.86856
+Iteration 2:   log pseudo-likelihood = -345.12831
+Iteration 3:   log pseudo-likelihood = -345.12699
+
+Ordered probit estimates                          Number of obs   =        380
+                                                  Wald chi2(14)   =     129.15
+                                                  Prob > chi2     =     0.0000
+Log pseudo-likelihood = -345.12699                Pseudo R2       =     0.1171
+
+                             (standard errors adjusted for clustering on dyad)
+------------------------------------------------------------------------------
+             |               Robust
+ concessions |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         wto |  -.8386132   .8375413    -1.00   0.317    -2.480164    .8029376
+  wtolnpc951 |   .1594059   .0883168     1.80   0.071    -.0136918    .3325036
+     lnpc951 |   .0275406   .0949149     0.29   0.772    -.1584891    .2135703
+     lnpc952 |  -.1437235   .0868638    -1.65   0.098    -.3139735    .0265265
+      lng951 |   .0500793   .0466408     1.07   0.283    -.0413349    .1414936
+      lng952 |   .0453705   .0556485     0.82   0.415    -.0636987    .1544396
+       panel |   .9725608   .2397071     4.06   0.000     .5027435    1.442378
+     ruling1 |  -.3631829   .2556108    -1.42   0.155    -.8641709    .1378051
+     ruling2 |  -.9236974   .2665134    -3.47   0.001    -1.446054   -.4013406
+     ruling3 |  -2.068828   .3339428    -6.20   0.000    -2.723344   -1.414312
+          ag |   .1192874   .1239785     0.96   0.336    -.1237061    .3622809
+   sensitive |  -.4484392   .1788546    -2.51   0.012    -.7989877   -.0978906
+multilateral |  -.0437516   .1332525    -0.33   0.743    -.3049217    .2174185
+     discrim |   -.022624   .1460823    -0.15   0.877      -.30894     .263692
+-------------+----------------------------------------------------------------
+       _cut1 |   1.381988   1.589087          (Ancillary parameters)
+       _cut2 |   1.982133   1.598517 
+------------------------------------------------------------------------------
+
+. * Model 2 *
+. oprobit  concessions lnpc951 lnpc952 lng951 lng952 panel  ruling1 ruling2 ruling3 ag  sensitive
+>   multilateral  discrim if wto==1, robust cluster(dyad)
+
+Iteration 0:   log pseudo-likelihood = -133.12528
+Iteration 1:   log pseudo-likelihood = -117.01199
+Iteration 2:   log pseudo-likelihood = -116.75808
+Iteration 3:   log pseudo-likelihood = -116.75723
+Iteration 4:   log pseudo-likelihood = -116.75723
+
+Ordered probit estimates                          Number of obs   =        154
+                                                  Wald chi2(12)   =      42.26
+                                                  Prob > chi2     =     0.0000
+Log pseudo-likelihood = -116.75723                Pseudo R2       =     0.1230
+
+                             (standard errors adjusted for clustering on dyad)
+------------------------------------------------------------------------------
+             |               Robust
+ concessions |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+     lnpc951 |   .2194609    .102896     2.13   0.033     .0177885    .4211333
+     lnpc952 |  -.0504086   .1017363    -0.50   0.620     -.249808    .1489909
+      lng951 |   .0079771    .066746     0.12   0.905    -.1228426    .1387968
+      lng952 |   .0089861   .0577501     0.16   0.876     -.104202    .1221743
+       panel |   .9586649   .3428779     2.80   0.005     .2866366    1.630693
+     ruling1 |  -.5840478   .4165492    -1.40   0.161    -1.400469    .2323737
+     ruling2 |  -.5632119   .4591007    -1.23   0.220    -1.463033     .336609
+     ruling3 |  -1.791088   .4638308    -3.86   0.000     -2.70018   -.8819966
+          ag |  -.0889474   .2068939    -0.43   0.667    -.4944519    .3165571
+   sensitive |    -.90765   .2447574    -3.71   0.000    -1.387366   -.4279342
+multilateral |   .4632998   .3073608     1.51   0.132    -.1391164    1.065716
+     discrim |  -.1632909   .2224124    -0.73   0.463    -.5992112    .2726294
+-------------+----------------------------------------------------------------
+       _cut1 |   1.411064   1.902853          (Ancillary parameters)
+       _cut2 |   1.879611   1.907635 
+------------------------------------------------------------------------------
+
+. * Model 3 *
+. probit settle lnpc951 lnpc952 lng951 lng952 ag  multilateral  discrim  sensitive if wto==1, rob
+> ust cluster(dyad)
+
+Iteration 0:   log pseudo-likelihood = -102.96032
+Iteration 1:   log pseudo-likelihood = -93.817281
+Iteration 2:   log pseudo-likelihood = -93.667394
+Iteration 3:   log pseudo-likelihood = -93.667223
+
+Probit estimates                                  Number of obs   =        154
+                                                  Wald chi2(8)    =      16.03
+                                                  Prob > chi2     =     0.0420
+Log pseudo-likelihood = -93.667223                Pseudo R2       =     0.0903
+
+                             (standard errors adjusted for clustering on dyad)
+------------------------------------------------------------------------------
+             |               Robust
+      settle |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+     lnpc951 |   .2740814    .139627     1.96   0.050     .0004174    .5477454
+     lnpc952 |   .0897798   .1185945     0.76   0.449    -.1426612    .3222207
+      lng951 |  -.0945454   .0667142    -1.42   0.156    -.2253027     .036212
+      lng952 |  -.1261012   .0778005    -1.62   0.105    -.2785873     .026385
+          ag |   .3896135   .2676465     1.46   0.145     -.134964    .9141909
+multilateral |  -.2786157   .2591639    -1.08   0.282    -.7865676    .2293362
+     discrim |  -.0161565   .2555481    -0.06   0.950    -.5170215    .4847086
+   sensitive |  -.8242843   .5295839    -1.56   0.120     -1.86225    .2136811
+       _cons |   2.611431   1.819331     1.44   0.151    -.9543915    6.177253
+------------------------------------------------------------------------------
+
+. * Model 4 *
+. oprobit  concessions lnpc951 lnpc952 lng951 lng952 ag  discrim  sensitive if  ruling1==1 & wto=
+> =1, robust cluster(dyad)
+
+Iteration 0:   log pseudo-likelihood = -31.422787
+Iteration 1:   log pseudo-likelihood = -27.611503
+Iteration 2:   log pseudo-likelihood = -27.563791
+Iteration 3:   log pseudo-likelihood = -27.563717
+
+Ordered probit estimates                          Number of obs   =         41
+                                                  Wald chi2(7)    =      21.50
+                                                  Prob > chi2     =     0.0031
+Log pseudo-likelihood = -27.563717                Pseudo R2       =     0.1228
+
+                             (standard errors adjusted for clustering on dyad)
+------------------------------------------------------------------------------
+             |               Robust
+ concessions |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+     lnpc951 |   .1815647   .2367862     0.77   0.443    -.2825277     .645657
+     lnpc952 |   .1210543   .2292685     0.53   0.597    -.3283037    .5704122
+      lng951 |   .0627334   .1838623     0.34   0.733    -.2976301    .4230968
+      lng952 |  -.0607005   .2256729    -0.27   0.788    -.5030113    .3816103
+          ag |   -.713602   .3364242    -2.12   0.034    -1.372981   -.0542227
+     discrim |   .0563558   .5374224     0.10   0.916    -.9969728    1.109684
+   sensitive |  -.5343877   .5229621    -1.02   0.307    -1.559375    .4905993
+-------------+----------------------------------------------------------------
+       _cut1 |   1.237085   8.118789          (Ancillary parameters)
+       _cut2 |   1.861866   8.110995 
+------------------------------------------------------------------------------
+
+. exit, clear
