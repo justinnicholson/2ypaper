@@ -13,7 +13,7 @@ library(countrycode)
 library(epicalc)
 #Cleanup and preliminaries
 detachAllData()                                #detach all previous data - requires epicalc library
-setwd("~/Dropbox/Academic/2YP/data/")    #set working directory
+setwd("/Users/justinnicholson/documents/academic/projects/2ypaper/data/images")    #set working directory
 load("adjudication.rda")
 old.data = data
 #load and attach current data
