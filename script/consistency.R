@@ -6,7 +6,8 @@
 # checking for unintentional data editing and errors. 
 # all matching done by CoW codes. Some are user-defined as nessecary.
 ################################################################################
-
+consistency = function(backup.frame, suspect.frame){
+  inconsistent = NULL
 #ROW CONSISTENCY
 #Check for observation consistency between sets based on user set unique key. 
 #Right now this is limited to one variable.
@@ -24,7 +25,7 @@ if (length(obsdel) > 0){
 rowinter = intersect(as.vector(suspect.frame$CASE_ID), as.vector(backup.frame$CASE_ID))
 
 #Row subset
-backup.subset = backup.frame[backup.frame$CASE_ID %in% inter,]
+backup.subset = backup.frame[backup.frame$CASE_ID %in% rowinter,]
 
 #COLUMN CONSISTENCY
 coldel = setdiff(as.vector(colnames(backup.frame)), as.vector(colnames(suspect.frame)))
@@ -83,6 +84,7 @@ cat("row", show[k] ,'\n', "difference in variable", inconsistent[j,1], '\n',
     toString(bordered[show[k],as.integer(inconsistent[j,3])]), '\n \n')
 }
 }
-
+return(show)
+}
 #CLEANUP
-rm(obsdel, obsadd, coldel, coladd, colinter, backup.subset, data.subset, suspect.subset, borderedmod, i, k, inter, newloc, oldloc, sorderedmod, bordered)
+#rm(obsdel, obsadd, coldel, coladd, colinter, backup.subset, data.subset, suspect.subset, borderedmod, i, k, inter, newloc, oldloc, sorderedmod, bordered)
