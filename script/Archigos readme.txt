@@ -23,8 +23,19 @@ Match based on CoW code and leader enter/exit date. (This is the unique key for 
 4.) require that INIT date must be less than leader exit date unless leader still in office
 
 t.tenure = matrix(NA,nrow(data),1)
-for (i in 1:nrow(data)){
+for (i in 1:nrow(data)) {
 	currentleader = which(data$t.ccode[i] == arch$ccode & data$einitdate[i] >= arch$eindate & data$einitdate[i] <= arch$eoutdate)
 	tencalc = as.integer(data$einitdate[i] - arch$eindate[currentleader])
+	if(length(tencalc)==1){
 	t.tenure[i] = tencalc
-}
+	} else if(length(tencalc) == 0) {
+	t.tenure[i] = NA
+	} else if(length(tencalc) > 1) {
+	currentleader = which(data$t.ccode[i] == arch$ccode & data$einitdate[i] >= arch$eindate & data$einitdate[i] < arch$eoutdate)
+	tencalc = as.integer(data$einitdate[i] - arch$eindate[currentleader])
+	t.tenure[i] = tencalc
+	}
+	else {
+	print("ERROR")
+	}
+	}
