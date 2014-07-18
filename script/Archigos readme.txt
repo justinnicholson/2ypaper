@@ -1,20 +1,16 @@
-#Justin W. Nicholson
-#Second Year Paper project
-#17/07/2014
-#Archigos Coding
-
-
-
+##Justin W. Nicholson
+##Second Year Paper project
 ##Coding for ARCHIGOS data in dataset
+#17/07/2014
+##Archigos Coding
+
 
 #Problems:
 No data for Europe
 Data only goes up to 2004
 
-
 ##Coding agenda:
 Match based on CoW code and leader enter/exit date. (This is the unique key for this dataset)
-
 
 #ccode must match ccode
 #INIT date must be less than leader exit date (if leader is still in office this is not applicable)
@@ -26,3 +22,6 @@ Match based on CoW code and leader enter/exit date. (This is the unique key for 
 3.) require that INIT date must be greater than leader enter date.
 4.) require that INIT date must be less than leader exit date unless leader still in office
 
+for (i in 1:nrow(data)){
+	which(data$t.ccode[i] == arch$ccode & data$einitdate[i] >= arch$eindate & data$einitdate[i] <= arch$eoutdate)
+}
