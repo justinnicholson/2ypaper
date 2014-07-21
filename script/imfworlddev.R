@@ -95,3 +95,4 @@ arch$ccode[arch$idacr == "CZE"] = 315
 data$t.ccode[data$INV_CTY_NAME == "Belarus" & data$einitdate <= '1991-08-25'] = 365
 data$t.ccode[data$INV_CTY_NAME == "Macedonia" & data$einitdate <= '1993-04-8'] = 365
 data$t.ccode[data$INV_CTY_NAME == "Ukraine" & data$einitdate <= '1991-08-24'] = 365
+data$t.ccode[data$INV_CTY_NAME == "Slovakia" & data$einitdate <= '1993-12-01'] = 315
