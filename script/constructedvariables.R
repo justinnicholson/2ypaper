@@ -33,6 +33,7 @@ x[yourvector[which(abs(x[yourvector]-your.number) == min(abs(x[yourvector]-your.
 
 
 arch$ccode[arch$idacr == "GFR"] = 255
+arch$ccode[arch$idacr == "RUS"] = 365
 
 #save the final product
 save.image(file = "adjudication.rda")
