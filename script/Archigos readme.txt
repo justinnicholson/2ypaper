@@ -24,6 +24,7 @@ Match based on CoW code and leader enter/exit date. (This is the unique key for 
 
 
 arch$ccode[arch$idacr == "GFR"] = 255
+arch$ccode[arch$idacr == "RUS"] = 365
 
 t.tenure = matrix(NA,nrow(data),1)
 
