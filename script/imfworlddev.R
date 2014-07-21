@@ -88,3 +88,10 @@ old.data$t.ccode[old.data$INV_CTY_NAME == "Serbia and Montenegro"] = 345
 old.data$t.ccode[old.data$INV_CTY_NAME == "Montenegro"] = 341
 old.data$INV_CTY_NAME[old.data$t.ccode == 52] = "Trinidad and Tobago"
 data$t.ccode[data$INV_CTY_NAME == "East Germany"] = 265
+data$t.ccode[data$INV_CTY_NAME == "Czech Republic"] = 315
+data$t.ccode[data$INV_CTY_NAME == "Czechoslovakia"] = 315
+arch$ccode[arch$idacr == "CZR"] = 315
+arch$ccode[arch$idacr == "CZE"] = 315
+data$t.ccode[data$INV_CTY_NAME == "Belarus" & data$einitdate <= '1991-08-25'] = 365
+data$t.ccode[data$INV_CTY_NAME == "Macedonia" & data$einitdate <= '1993-04-8'] = 365
+data$t.ccode[data$INV_CTY_NAME == "Ukraine" & data$einitdate <= '1991-08-24'] = 365
