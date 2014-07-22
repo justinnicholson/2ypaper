@@ -44,3 +44,23 @@ for (i in 1:nrow(data)) {
 	print("ERROR")
 	}
 	}
+
+
+s.tenure = matrix(NA,nrow(data),1)
+
+for (i in 1:nrow(data)) {
+	currentleader = which(data$s.ccode[i] == arch$ccode & data$einitdate[i] >= arch$eindate & data$einitdate[i] <= arch$eoutdate)
+	tencalc = as.integer(data$einitdate[i] - arch$eindate[currentleader])
+	if(length(tencalc)==1){
+	s.tenure[i] <- tencalc
+	} else if(length(tencalc) == 0) {
+	s.tenure[i] <- NA
+	} else if(length(tencalc) > 1) {
+	currentleader = which(data$s.ccode[i] == arch$ccode & data$einitdate[i] >= arch$eindate & data$einitdate[i] < arch$eoutdate)
+	tencalc = as.integer(data$einitdate[i] - arch$eindate[currentleader])
+	s.tenure[i] <- tencalc
+	}
+	else {
+	print("ERROR")
+	}
+	}
