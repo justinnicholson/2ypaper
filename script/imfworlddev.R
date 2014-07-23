@@ -15,7 +15,7 @@ library(epicalc)
 detachAllData()                                #detach all previous data - requires epicalc library
 setwd("/Users/justinnicholson/documents/academic/projects/2ypaper/data/images")    #set working directory
 load("adjudication.rda")
-old.data = data
+old.data <- data
 #load and attach current data
 
 #Data options - user input needed here
@@ -68,12 +68,12 @@ csv.data$ccode[csv.data$iso == "EUU"] = 994
 drop = c("country", "iso")
 csv.data = csv.data[,!colnames(csv.data) %in% drop]
 #sender info
-old.data2 = merge(old.data, csv.data, by.x = c("i.date", "s.ccode"), by.y = c("year", "ccode"), all.x = T, all.y = F)
-colnames(old.data2)[ncol(old.data2)] = paste("s.",colnames(old.data2)[ncol(old.data2)], sep = "")
+old.data2 = merge(old.data, csv.data, by.x = c("IMP_DATE", "s.ccodeIMP"), by.y = c("year", "ccode"), all.x = T, all.y = F, incomparables = NA)
+colnames(old.data2)[ncol(old.data2)] = paste("s.",colnames(old.data2)[ncol(old.data2)],"_IMP", sep = "")
 
 #target info
-old.data2 = merge(old.data2, csv.data, by.x = c("i.date", "t.ccode"), by.y = c("year", "ccode"), all.x = T, all.y = F)
-colnames(old.data2)[ncol(old.data2)] = paste("t.",colnames(old.data2)[ncol(old.data2)], sep = "")
+old.data2 = merge(old.data2, csv.data, by.x = c("IMP_DATE", "t.ccodeIMP"), by.y = c("year", "ccode"), all.x = T, all.y = F, incomparables = NA)
+colnames(old.data2)[ncol(old.data2)] = paste("t.",colnames(old.data2)[ncol(old.data2)],"_IMP", sep = "")
 
 #data cleanup
 data <- old.data2
@@ -83,17 +83,24 @@ rm(list=c("old.data", "old.data2", "csv.name", "drop"))
 save.image(file = "adjudication.rda")
 
 #one off code - do not worry about this
-old.data$t.ccode[old.data$INV_CTY_NAME == "Serbia"] = 345
-old.data$t.ccode[old.data$INV_CTY_NAME == "Serbia and Montenegro"] = 345
-old.data$t.ccode[old.data$INV_CTY_NAME == "Montenegro"] = 341
-old.data$INV_CTY_NAME[old.data$t.ccode == 52] = "Trinidad and Tobago"
+data$t.ccode[data$INV_CTY_NAME == "Serbia"] = 345
+data$t.ccode[data$INV_CTY_NAME == "Serbia and Montenegro"] = 345
+data$t.ccode[data$INV_CTY_NAME == "Montenegro"] = 341
 data$t.ccode[data$INV_CTY_NAME == "East Germany"] = 265
 data$t.ccode[data$INV_CTY_NAME == "Czech Republic"] = 315
 data$t.ccode[data$INV_CTY_NAME == "Czechoslovakia"] = 315
-arch$ccode[arch$idacr == "CZR"] = 315
-arch$ccode[arch$idacr == "CZE"] = 315
 data$t.ccode[data$INV_CTY_NAME == "Belarus" & data$einitdate <= '1991-08-25'] = 365
 data$t.ccode[data$INV_CTY_NAME == "Macedonia" & data$einitdate <= '1993-04-8'] = 365
 data$t.ccode[data$INV_CTY_NAME == "Ukraine" & data$einitdate <= '1991-08-24'] = 365
 data$t.ccode[data$INV_CTY_NAME == "Slovakia" & data$einitdate <= '1993-12-01'] = 315
 data$t.ccode[data$INV_CTY_NAME == "Bosnia Herzegovina" & data$einitdate <= '1992-03-01'] = 345
+
+old.data$INV_CTY_NAME[old.data$t.ccode == 52] = "Trinidad and Tobago"
+arch$ccode[arch$idacr == "CZR"] = 315
+arch$ccode[arch$idacr == "CZE"] = 315
+
+wtoacc$ccode[wtoacc$WTOname == "Cote d'ivore"] = 437
+wtoacc$ccode[wtoacc$WTOname == "European Union"] = 994
+wtoacc$ccode[wtoacc$WTOname == "Hong Kong"] = 991
+wtoacc$ccode[wtoacc$WTOname == "Kyrgyistan"] = 703
+wtoacc$ccode[wtoacc$WTOname == "Samoa"] = 990
