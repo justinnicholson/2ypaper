@@ -80,7 +80,7 @@ data <- old.data2
 rm(list=c("old.data", "old.data2", "csv.name", "drop"))
 
 #save the final product
-save.image(file = "adjudication.rda")
+save.image(file = "adjudication01.rda")
 
 #one off code - do not worry about this
 data$t.ccode[data$INV_CTY_NAME == "Serbia"] = 345
