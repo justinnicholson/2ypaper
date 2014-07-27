@@ -14,7 +14,7 @@ library(epicalc)
 #Cleanup and preliminaries
 detachAllData()                                #detach all previous data - requires epicalc library
 setwd("/Users/justinnicholson/documents/academic/projects/2ypaper/data/images")    #set working directory
-load("adjudication.rda")
+load("adjudication01.rda")
 old.data <- data
 #load and attach current data
 
