@@ -109,3 +109,63 @@ install.packages("ggplot2")
 require(ggplot2)
 typeof(pp_lt)
 ggplot(pp_lt)
+ggplot(pp_lt)
+ggplot(pp_lt, aes(variable, value))
+qplot(pp_lt)
+ls(pp_lt)
+qplot(pp_lt, aes("Pr(~chal)"))
+qplot(pp_lt, aes("t.polity2_IMP"))
+plot(ppLt)
+plot(pp_Lt)
+pp_lt
+plot(pp_lt)
+plot(pp_lt, ask)
+plot(pp_lt, ask = T)
+getwd()
+pdf("/Users/justinnicholson/Documents/academic/projects/2ypaper/data/images")
+pdf(filename = "/Users/justinnicholson/Documents/academic/projects/2ypaper/data/images/predplot1.pdf")
+pdf("/Users/justinnicholson/Documents/academic/projects/2ypaper/data/images/predplot1.pdf")
+plot(pp_lt, ask = T)
+dev.off()
+require(stargazer)
+install.packages("stargazer")
+summary(liberal_trade)
+f9
+lib_trd_logit <- glm(chal + panel.i ~ t.polity2_IMP + s.polity2_IMP + t.logGDP_IMP + #
+    t.NE.TRD.GNFS.ZS_IMP, data = data_unique, family = binomial(link = "lgit"))
+lib_trd_logit <- glm(chal + panel.i ~ t.polity2_IMP + s.polity2_IMP + t.logGDP_IMP + #
+    t.NE.TRD.GNFS.ZS_IMP, data = data_unique, family = binomial(link = "logit"))
+lib_trd_logit <- glm(chal ~ t.polity2_IMP + s.polity2_IMP + t.logGDP_IMP + #
+    t.NE.TRD.GNFS.ZS_IMP, data = data_unique, family = binomial(link = "logit"))
+summary(lib_trd_logit)
+lib_trd_logit <- glm(chal ~ t.polity2_IMP + s.polity2_IMP + t.logGDP_IMP + #
+    t.NE.TRD.GNFS.ZS_IMP, data = data_unique, family = binomial(link = "probit"))
+lib_trd_logit
+summary(lib_trd_probit)
+summary(lib_trd_lobit)
+summary(lib_trd_logit)
+lib_trd_probit <- glm(chal ~ t.polity2_IMP + s.polity2_IMP + t.logGDP_IMP + #
+    t.NE.TRD.GNFS.ZS_IMP, data = data_unique, family = binomial(link = "probit"))
+stargazer(lib_trd_probit, style = "AJPS")
+require(stargazer)
+stargazer(lib_trd_probit, style = "AJPS")
+predict(lib_trd_probit)
+plot(predict(lib_trd_probit))
+effect()
+install.packages("effects")
+require(effects)
+?effects
+?effect
+install.package("errer")
+install.packages("errer")
+plot(predict(lib_trd_probit))
+lib_trd_probit
+nochal
+data_unique$nochal
+lib_trd_probit <- glm(nochal ~ t.polity2_IMP + s.polity2_IMP + t.logGDP_IMP + #
+    t.NE.TRD.GNFS.ZS_IMP, data = data_unique, family = binomial(link = "probit"))
+clarke(liberal_trade, outcome1 = 1, model2 = liberal_trd_probit)
+clarke(liberal_trade, outcome1 = 1, model2 = lib_trd_probit)
+vuong(liberal_trade, outcome1 = 1, model2 = lib_trd_probit)
+vuong(liberal_trade, outcome1 = 1, model2 = lib_trd_probit, boot = 100)
+save.image("adjudication04.rda")
