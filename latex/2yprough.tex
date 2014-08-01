@@ -4,12 +4,13 @@
 %Article information
 \author{Justin Nicholson}
 \date{\today}
-\title{Adjudicating Adjudication: a rational look}
+\title{A Strategic Model of WTO Adjudication}
 
 %Call nessecary external packages
 \usepackage{multirow}
 \usepackage{pdfpages}
 \usepackage[margin=1in]{geometry}
+\usepackage{caption}
 \usepackage{setspace}
 \usepackage{fancyhdr, amsmath, amssymb}
 \usepackage{graphicx}
@@ -25,6 +26,7 @@
 \headheight = 14pt
 \doublespace
 \begin{document}
+\maketitle
 \section{introduction}
 The budget for the World Trade Organization totaled roughly \$217,504,702.00 in 2013,the most recent year on record. There are currently 149 cases in consultations, including 4 in limbo since 1995. a further 43 cases are awaiting the composition or decision of a panel. This includes one case filed by the US against Argentina in 1999 over footwear and a Canadian case against the EEC over duties on imports of cereals. 160 states are members or observers, which accounts for roughly 82 percent of extant states. Adjudication, not to mention accession, is costly, often slow and bears no legal status beyond what the member states attribute to it. The question then is, why bother?  \\
 
@@ -37,17 +39,15 @@ Event count models, and in particular ZIP/ZINB models mentioned above are abando
 
 Bearing this warning in mind, I offer an analysis utilizing strategic backwards induction on an improved dataset which contains the universe of potential disputes for a certain type of temporary trade barrier. Each observation is a potential Anti-Dumping trade dispute, whether or not it became a WTO dispute. The combination of data and method should allow for more precise results regarding the determinants of strategic interaction at the WTO. \\
 
- The first stage of the SBI model examines the determinants of panel formation once a dispute is filed. Keeping in mind that nearly 90\% of panel rulings favor the plaintiff, expected probabilities are derived. These probabilities are then included in a model of adjudication initiation with surprising and novel results 
-
-. Both the model and the results will be discussed in more detail later in the article. 
+ The bottom stage of the SBI model examines the determinants of panel formation once a dispute is filed. Keeping in mind that nearly 90\% of panel rulings favor the plaintiff, expected probabilities are derived. These probabilities are then included in a model of adjudication initiation with surprising and novel results. Both the model and the results will be discussed in more detail later in the article. 
 \section{Theory}
 While there have been a wide range of plausible theories put forward in regard to the use of the dispute mechanism of the WTO,  Christina Davis has convincingly argued that democracy is important above and beyond self-interested power politics.  This article does not mean to directly challenge that contention, but rather further explore \textit{how} democracy matters. At the risk of oversimplification, Davis posits that the institutions underpinning modern democratic states generate pressure to bring WTO disputes, in order to overcome a commitment problem.  In effect, the legislature induces this pressure by reducing the bargaining flexibility that the executive maintains, pushing them towards enforcement rather than bargaining. This implies a completely monotonic relationship: completely autocratic states feel no pressure to file at the WTO, beyond what might be considered rational self-interest, whilst extremely divided democracies or democracies experiencing divided government feel the most pressure to file.\\	
 
-The analyses conducted thus far have have imposed the rather strong restriction of monotonicity on the regressors. Indeed, a logit or probit, while non-linear, are \textit{linear in the regressors}. I argue that this assumption is overly restrictive and unwarranted. Take for example Hein Goemans hypothesis regarding international conflict. Goemans hypothesizes that ``Leaders of mixed regimes will suffer severe punishment whether they lose moderately or disastrously. Dictators and democrats are much more likely to suffer severe punishment when they lose disastrously than when they lose moderately" \cite{GGR2000}.  In a similar vein, I posit that \textit{mixed regimes} rather than strong democracies or strong autocracies have the most pressure to adjudicate at the WTO, ceterus paribus, and that in doing so they are in fact responding to incentives rationally. Repressive regimes have little incentive to utilize the WTO. They typically do not have liberal institutions that could put pressure on them, nor do they have a large electorate that they must please. These regimes need only please only a few select interests, and face little blowback on a case by case basis. Conversely, extremely open democratic regimes face large electorates with broad interests.\\ 
+The analyses conducted thus far have have imposed the rather strong restriction of monotonicity on the regressors. \cite{SY2003}  I argue that this assumption is overly restrictive and unwarranted. Take for example Hein Goemans` hypothesis regarding international conflict. Goemans hypothesizes that ``Leaders of mixed regimes will suffer severe punishment whether they lose moderately or disastrously. Dictators and democrats are much more likely to suffer severe punishment when they lose disastrously than when they lose moderately" \cite{GGR2000}.  In a similar vein, I posit that \textit{mixed regimes} rather than strong democracies or strong autocracies have the most pressure to adjudicate at the WTO, ceterus paribus, and that in doing so they are in fact responding to incentives rationally. Repressive regimes have little incentive to utilize the WTO. They typically do not have liberal institutions that could put pressure on them, nor do they have a large electorate that they must please. These regimes need only please only a few select interests, and face little blowback on a case by case basis. Conversely, extremely open democratic regimes face large electorates with broad interests.\\ 
 
 The contention that democratic regimes might prefer to be more reserved in their WTO filings might at first sound perverse, particularly so given that many of the states with the strongest democratic institutions were, and are, responsible for the primacy of the liberal-institutionalist trade regime.  Consider for a moment the problems that are encountered with pleasing large electorates. He might reason that the populace prefers a trade win, whether public or private over a trade loss in private, over a trade loss in public. With this preference ordering in mind, he might decide to bring only cases he knows he can win to the WTO, in order to win publicly and save more uncertain cases for other, more private venues where a loss can be swept under the electoral rug. 
 
- Perhaps the populace has a more consistent preference ordering, along the lines of. (insert here.), Even so, if It is now a long standing contention that  there is good reason to believe that the preferences indued by majority rule are not necessarily be coherent, and may indeed contain cycles. \cite{Arrow}. Indeed, Riker shows that as the number of voters and issues grows large, we can expect quite large proportions of preference orderings without a Condorcet Winner. While this might seem abstract, it has practical implications for the political machinations a democratic leader. An unpopular decision now that comports with the leaders individual values regarding free trade in the present, does not preclude winning an election again in the future, holding other powerful governmental posts or a transition to the private sector. Further, some democracies employ term limits which free term-limited executives from electoral constraints beyond the control that loyalty and future patronage from their party induce.  
+ Perhaps the populace has a more consistent preference ordering, along the lines of. (insert here.), Even so, if It is now a long standing contention that  there is good reason to believe that the preferences indued by majority rule are not necessarily be coherent, and may indeed contain cycles. \cite{Arrow}. Riker shows that as the number of voters and issues grows large, we can expect quite large proportions of preference orderings without a Condorcet Winner. While this might seem abstract, it has practical implications for the political machinations a democratic leader. An unpopular decision now that comports with the leaders individual values regarding free trade in the present, does not preclude winning an election again in the future, holding other powerful governmental posts or a transition to the private sector. Further, some democracies employ term limits which free term-limited executives from electoral constraints beyond the control that loyalty and future patronage from their party induce.  
 
   Mixed regimes however face rather idiosyncratic restraints, and so their leaders must tread carefully. For an illustrative example, consider Pakistan. The state has alternated between periods of dictatorship and limited democracy, with non-transparent elections. A major electoral loss might result in the loss of power for many years, and exile or worse for the leaders of the former ruling party.  Making matters worse, the apparatus of repression is weaker than what a true despotic regime might be able to call upon, a la the East German Stazi. It might then be preferable for a leader to tie hands, and bring more cases before the WTO, preferring all cases to be handled publicly, and with the appearance that decisions are beyond their control. The clear case presented thus far is however muddled by the increased need to keep certain influential leaders happy. This might impart a desire to handle disputes quickly and efficiently. The same logic applies, however. By keeping the appearance of hands tied by international institutions and bringing all issues there, leaders can appear to be active in protecting interests, while avoiding the potential fallout from a private failure. 
 
@@ -95,7 +95,6 @@ I take this as the base model for all that follows. This model shows the importa
 
 The graph clearly shows the posited relationship exists, within the confines of this model. At the far left, where polity is near its` lower bound, the probability of not challenging is near 1. The probability decreases as polity increases, reaching a nadir around a score of 4, which corresponds to a mixed regime type. The probability then begins increasing again, ultimately approaching \%95, as polity reaches its maximum. 
 
-\includepdf[scale = 0.66, pages={1}]{predplot1.pdf}
 \begin{table}[Htbp] \centering 
   \caption{Depdendent Variables} 
   \label{} 
@@ -109,12 +108,12 @@ panel.i & 1636 & 0.063 & 0.243 & 0 & 1 \\
 \end{tabular} 
 \end{table} 
 
-\subsection{standard logit analysis}
-The first model run is a standard logit analysis of the new data, derived from the theory presented above. The dependent variable is \textit{challenge}, and the independent variables include economic controls and polity scores. The results are presented in table \ref{base logit} below. We see that challenger GDP is extremely significant, as is the target's polity score. All else equal, it appears that the more democratic you are, the more likely you are to be challenged. This is prima facie evidence for the theory put forward by Davis, that democracies prefer being challenged.  
+\subsection{standard probit analysis}
+The first model run is a standard probit analysis of the new data, derived from the theory presented above. The dependent variable is \textit{challenge}, and the independent variables include economic controls and polity scores. The results are presented in table \ref{base logit} below. We see that challenger GDP is extremely significant, as is the target's polity score. All else equal, it appears that the more democratic you are, the more likely you are to be challenged. This is prima facie evidence for the theory put forward by Davis, that democracies prefer being challenged.  
 
-\begin{table}[!htbp] \centering 
-  \caption{logit model of liberal trade} 
-  \label{base logit} 
+\begin{table}[htbp] \centering 
+  \caption{probit model of liberal trade} 
+  \label{base probit} 
 \begin{tabular}{@{\extracolsep{5pt}}lc} 
 \\[-1.8ex]\hline \\[-1.8ex] 
 \\[-1.8ex] & \textbf{chal} \\ 
@@ -167,11 +166,59 @@ Log-likelihood & $-$412.499 \\
 \label{tab:libtr}
 \end{table}
 
-Of course, these models would not be of much interest to us if they were incomparable. Since neither model can be expressed as a restriction of the other, a non-nested model test can be employed. Vuong test returns a test statistic of 3.1, indicating (p = 0.0021 that our strategic model performs significantly better than the non-strategic probit. A Clarke test is a bit murkier, giving no clear indication of which model is preferred. 
+
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{lcccc}
+\hline
+ & u1(\textasciitilde{}chal) & u1(chal,\textasciitilde{}panel.i) & u1(chal,panel.i) & u2(chal,panel.i) \\
+\hline
+\multirow{2}{*}{(Intercept)} & \multirow{2}{*}{} & $-$29.5752389 & $-$2.5112022 & $-$1.2550877 \\
+ &  & (10.9380864) & (2.9159430) & (1.8009770) \\[2pt]
+\multirow{2}{*}{polity2, challenger} & 0.4374113 & \multirow{2}{*}{} & \multirow{2}{*}{} & 0.1034534 \\
+ & (0.1421695) &  &  & (0.0295974) \\[2pt]
+\multirow{2}{*}{polity2, challenger, target} & 0.0876272 & \multirow{2}{*}{} & \multirow{2}{*}{} & 0.0430477 \\
+ & (0.0857358) &  &  & (0.0259945) \\[2pt]
+\multirow{2}{*}{log GDP, challenger\_IMP} & $-$0.2545448 & \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{} \\
+ & (0.0694800) &  &  &  \\[2pt]
+\multirow{2}{*}{\% trade of GDP, challenger} & 0.0021335 & \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{} \\
+ & (0.0019540) &  &  &  \\[2pt]
+\multirow{2}{*}{log GDP, target\_IMP} & \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{} & 0.0842196 \\
+ &  &  &  & (0.0672745) \\[2pt]
+\multirow{2}{*}{\% trade of GDP, target} & \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{} & $-$0.0053112 \\
+ &  &  &  & (0.0066016) \\[2pt]
+\hline \hline
+Log-likelihood & $-$414.0054755 \\
+ $N$ & 1624\\
+\hline
+\end{tabular}
+\end{center}
+\caption{Trembling Hand Model of Liberal Trade}
+\label{tab:libtrt}
+\end{table}
+
+
+Of course, these models would not be of much interest to us if they were incomparable. Since neither model can be expressed as a restriction of the other, a non-nested model test can be employed. Vuong test returns a test statistic of 3.1, indicating (p = 0.0021 that our strategic model performs significantly better than the non-strategic probit. A Clarke test is a bit murkier, giving no clear indication of which model is preferred. This is fairly strong evidence that the strategic model outperforms current methods, especially given that the the baseline strategic model fits 11 parameters, while the probit model fits only 5.  
+
+We are also in a position to test some assumptions about the information structure of the model. Thus far, we have assumed that the source of variation is a probability distribution over private information, which implies that our model essentially produces a variant of a subgame perfect Nash equilibrium. We can depart form this assumption, and consequently the assumption of perfect rationality by assuming that the variation results from a ``trembling hand" or agent error. This type of model assumes that people can and do make mistakes. Table \ref{tab:libtrt} reports the results of a suitably modified strategic model. 
+
+Both Clarke and Vuong test indicate that the private information model is preferred to the agent error model. However, there is still good substantive reason to believe that experience might play a factor in who files. Future research will include applying this model to only the subset of developing members of the WTO data developed Davis and Bermeo.  They argue that experience increases the likelihood of filing and there is  evidence from this model that  democracy is more important in an agent error model. Note that more both polity scores (for challenger and target) are more significant in the agent error models. Figure \ref{fig:predprobs} shows the predicted probabilities of both models side by side. While the two graphs are largely identical, the trembling hand model has a slightly larger minimum. \footnote{The minimum predicted value for the trembling hand model is 0.820 while the private information model has a minimum of 0.823. Note that this is the probability of \textit{not challenging}. More concrete evidence would be a more significant difference between models when restricted to \textit{non-sophisticated} members.}   If we take the small step of assuming that agent error primarily results from a lack of experience,  then the informal model comparison provides  circumstantial evidence for the logic of Davis and Bermeo`s argument, insofar as mixed regime states will be less likely to file when agent error is the correct information structure.
+
+\begin{figure}[h]
+   \centering
+   \begin{tabular}{@{}c@{\hspace{.5cm}}c@{}}
+       \includegraphics[page=1,width=.45\textwidth]{probs_tremble.pdf} & 
+       \includegraphics[page=1,width=.45\textwidth]{predplot1.pdf} \\[.5cm]\\
+   \end{tabular}
+ \caption{Predicted Probabilities\\ Trembling hand (L), Private Information (R)}
+ \label{fig:predprobs}
+\end{figure}
 \section{conclusion}
 \section{extensions}
 %The observation that there are more WTO disputes filed by democracies, does not necessarily imply that WTO violations against democracies are more likely to be brought to the WTO.
+
 \newpage
 \bibliography{2yp}
+\nocite{*}
 \bibliographystyle{plain}
 \end{document}
