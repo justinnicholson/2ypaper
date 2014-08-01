@@ -1,0 +1,111 @@
+2+2
+integrate(,,100,x^2)
+integrand<- function(x^2+3x+2)
+integrand <- function(3x^2+3)
+integrand<- function(x){3x^2+2}
+integrand <- function(x) {1/((x+1)*sqrt(x))}
+integrand <- function(x) {1/x}
+integrand
+integrate(integrand,0,Inf)
+integrate(integrand, lower = 0, upper = 100)
+integrand <- function(x) {1/((x+1)*sqrt(x))}
+integrate(integrand, lower = 0, upper = Inf)
+connection <- url('http://www.peterhaschke.com/Teaching/R-Course Vector.Rdata')
+load(file = connection)
+ls()
+rm(connection)
+ls()
+connection <- url('http://www.peterhaschke.com/Teaching/R- Course/Vector.Rdata')
+load(file = connection)
+close(connection)
+connection
+ls()
+X
+length(X)
+A <- matrix(nrow = 2, ncol = 3, byrow = FALSE)
+A
+A <- matrix(data = seq(1:6), nrow = 2, ncol = 3, byrow = FALSE)
+A
+mat[1,3] <- 3
+mat[1,3] = 3
+A[1,3] <- 3
+A
+A[1,3] <- 1
+A
+A[1,3] <- 3
+A
+A[2,3] <- 1
+A
+B <- matrix()
+B
+matrix <- matrix(1:9, nrow = 3)
+matrix
+matrix[3,1] <- 4
+matrix
+matrix[1,2] <- 2
+matrix[2,2] <- 2
+matrix[3,2] <- 6
+matrix[1,3] <- -1
+matrix[2,3] <- 3
+matrix[3,3] <- 1
+matrix
+rank(matrix)
+y <- QR(matrix)
+y <- qr(matrix)
+y
+matrix
+rm(list())
+rm(ls())
+rm(list = ls())
+ls()
+matrix <- 1:4
+matrix
+matrix <- matrix(1:4, nrow = 2)
+matrix
+matrix[1,2] <- 2
+matrix[2,2] <- 1
+matrix
+eigenval(matrix)
+eigenval
+eigen(matrix)
+?eigen
+alarm()
+(700-591)
+109/148
+.7364*119
+pnorm(.736,87)
+pnorm(.736)
+1-.769
+.736*87
+pnorm(64.032)
+pnorm(1.46)
+pnorm(1.46, lower.tail = FALSE)
+ls()
+remove(list=ls())
+leblang2003$attack <- as.numeric(leblang2003$outcome != "no attack")
+getwd()
+setwd("/Users/justinnicholson/documents/academic/projects/2ypaper)
+setwd("/Users/justinnicholson/documents/academic/projects/2ypaper")
+setwd("/Users/justinnicholson/documents/academic/projects/2ypaper/data")
+setwd("/Users/justinnicholson/documents/academic/projects/2ypaper/data/images/")
+load("adjudication03.rda")
+ls()
+pp_lt
+pplt
+pp_lgdp
+ls(pp_lgdp)
+liberal_trade
+summary(liberal_trade)
+requie(games)
+require(games)
+summary(liberal_trade)
+f9
+pp_lt = predProbs(liberal_trade, x = "t.polity2_IMP")
+plot(pp_lt)
+plot(pp_lt, ask)
+plot(pp_lt, ask = T)
+require(ggplot2)
+install.packages("ggplot2")
+require(ggplot2)
+typeof(pp_lt)
+ggplot(pp_lt)
